@@ -99,15 +99,20 @@ option = input (" Thank you for choosing to donate to the homeless in these desp
 
 op = int(option)
 if op == 1: 
- donor = input (" THANK YOU, donor! Please enter your zipcode  ")
+ donor = input (" THANK YOU, donor! Please enter your first 3 digits of zipcode  ")
  amount = input (" Please enter amount you would like to donate!  ")
- #shelter1 = logreg1.predict(
- #shelter2 = logreg2.predict(
- #shelter3 = logreg3.predict(
+ do = int(donor)
+ amt = int(amount)
+ x_new = [[do,amt]]
+ shelter1 = logreg1.predict(x_new)
+ shelter2 = logreg2.predict(x_new)
+ shelter3 = logreg3.predict(x_new)
  #Print the 3 probabilities and the answer is the one with the highest probability
- print('Probability of Shelter 1: , Probability of Shelter 2, Probability of Shelter 3')
+ print('Probability of Shelter 1: ', shelter1 , 'Probability of Shelter 2: ', shelter2, 'Probability of Shelter 3: ', shelter3)
  print('Congrats Donor! Based off your location, we recommend that you donate to _______')
 elif op == 2: 
  shelter = input (" THANK YOU, for everything you do for the homeless! Please enter your assigned shelter number  ")
+ shelter_int = int(shelter)
+ #Add code to provide top 10 donors
 else:
  print('Oops,You entered an incorrect choice! ')    
