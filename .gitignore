@@ -109,6 +109,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.bridge4good/
+.DS_Store
 
 # Spyder project settings
 .spyderproject

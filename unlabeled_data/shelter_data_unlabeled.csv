@@ -1,0 +1,1000 @@
+,Shelter City,Shelter State,Shelter Zip,Resource,Resource Quantity,Resource Price,Resource Vendor
+0,Capon Bridge,West Virginia,26711,toilet paper,1.0,350.0,
+1,The Woodlands,Texas,77384,gloves,40.0,12.86,CDW-G
+2,Sammamish,Washington,98074,masks,4.0,19.0,Amazon Business
+3,Oxford,Michigan,48370,toothpaste,1.0,269.0,Lakeshore Learning Materials
+4,Redwater,Texas,75573,toilet paper,1.0,131.85,Amazon Business
+5,Tucson,Arizona,85706,toilet paper,2.0,33.88,Amazon Business
+6,New York City,New York,10029,feminine hygiene products,3.0,172.11,Woodwind and Brasswind
+7,Elgin,South Carolina,29045,masks,1.0,6.43,Amazon Business
+8,San Jose,California,95122,toilet paper,1.0,24.2,Amazon Business
+9,Glenview,Illinois,60025,toothpaste,1.0,5.9,Amazon Business
+10,Roanoke,Texas,76262,shirts,1.0,3.46,Amazon Business
+11,Mechanicsvlle,Maryland,20659,masks,1.0,5.23,Amazon Business
+12,Westminster,Maryland,21157,toilet paper,1.0,7.87,Amazon Business
+13,Bolingbrook,Illinois,60440,socks,1.0,5.46,Amazon Business
+14,Kingston,Tennessee,37763,socks,1.0,3.7,Amazon Business
+15,Stockton,California,95215,shirts,1.0,3.62,Amazon Business
+16,New York City,New York,11205,granola bars,1.0,3.95,Amazon Business
+17,Yulee,Florida,32097,feminine hygiene products,1.0,6.99,Amazon Business
+18,Alexandria,Louisiana,71302,socks,1.0,4.99,Amazon Business
+44,Brent,Alabama,35034,toothpaste,1.0,49.99,Lakeshore Learning Materials
+45,Cottage Grove,Minnesota,55016,shirts,1.0,99.5,Lakeshore Learning Materials
+46,Grand Prairie,Texas,75052,shirts,1.0,29.99,Lakeshore Learning Materials
+47,Lynn,Massachusetts,1902,gloves,1.0,434.67,Lakeshore Learning Materials
+48,Camden,New Jersey,8105,granola bars,1.0,169.0,Amazon Business
+49,Nicholasville,Kentucky,40356,toilet paper,1.0,299.99,Amazon Business
+50,American Cyn,California,94503,granola bars,1.0,38.99,Amazon Business
+51,Mount Vernon,Missouri,65712,masks,26.0,5.75,Scholastic Classroom Magazines
+52,Waco,Texas,76710,feminine hygiene products,1.0,5.8,AKJ Education
+53,Dothan,Alabama,36303,shirts,1.0,7.59,Amazon Business
+54,Parker,Colorado,80134,gloves,1.0,35.05,AKJ Education
+55,Puyallup,Washington,98371,toilet paper,1.0,1.75,AKJ Education
+56,Nashville,Tennessee,37216,gloves,1.0,5.07,AKJ Education
+57,New York City,New York,11219,toilet paper,4.0,9.86,Amazon Business
+58,N Kingstown,Rhode Island,2852,granola bars,4.0,11.21,Amazon Business
+59,Davison,Michigan,48423,masks,2.0,11.79,Amazon Business
+60,Heath,Ohio,43056,gloves,1.0,32.81,Amazon Business
+61,Murray,Utah,84107,gloves,3.0,16.14,Amazon Business
+62,Waco,Texas,76704,shirts,4.0,16.0,Amazon Business
+63,Missoula,Montana,59808,granola bars,25.0,1.68,School Specialty
+64,Orlando,Florida,32809,masks,15.0,7.87,School Specialty
+65,Saint Paul,Minnesota,55117,granola bars,3.0,7.5,School Specialty
+66,Las Vegas,Nevada,89145,socks,1.0,3.68,School Specialty
+67,Pataskala,Ohio,43062,masks,1.0,16.99,Lakeshore Learning Materials
+68,Los Angeles,California,90026,masks,1.0,19.99,Lakeshore Learning Materials
+69,Danville,California,94506,socks,1.0,199.0,Lakeshore Learning Materials
+70,Miami,Florida,33178,toothpaste,1.0,29.99,Lakeshore Learning Materials
+71,Decatur,Georgia,30032,feminine hygiene products,1.0,29.99,Lakeshore Learning Materials
+72,Farmersville,Ohio,45325,shirts,1.0,39.99,Lakeshore Learning Materials
+73,Trenton,Ohio,45067,feminine hygiene products,1.0,39.99,Lakeshore Learning Materials
+74,Riverdale,Georgia,30274,toilet paper,1.0,19.99,Lakeshore Learning Materials
+75,Brentwood,California,94513,socks,5.0,57.65,Amazon Business
+76,Florence,South Carolina,29506,feminine hygiene products,4.0,213.83,CDW-G
+77,Hoffman Est,Illinois,60192,granola bars,2.0,96.0,AKJ Education
+78,New York City,New York,11355,masks,1.0,129.0,Lakeshore Learning Materials
+79,Youngstown,Ohio,44509,socks,1.0,55.0,Lakeshore Learning Materials
+80,Williamsport,Pennsylvania,17701,gloves,1.0,42.99,Lakeshore Learning Materials
+81,Plymouth,Minnesota,55446,socks,1.0,69.99,Lakeshore Learning Materials
+82,W Haverstraw,New York,10993,gloves,1.0,29.99,Lakeshore Learning Materials
+83,Henderson,Nevada,89044,toilet paper,2.0,24.99,Lakeshore Learning Materials
+84,Jacksonville,Florida,32257,toilet paper,1.0,29.99,Lakeshore Learning Materials
+85,Covington,Kentucky,41014,toilet paper,1.0,29.99,Lakeshore Learning Materials
+86,Hendersonville,Tennessee,37075,shirts,1.0,124.99,Staples Advantage
+87,Mount Gilead,Ohio,43338,toothpaste,3.0,34.28,Staples Advantage
+88,Riverside,California,92507,toilet paper,1.0,7.99,Amazon Business
+89,Crawfordville,Florida,32327,gloves,1.0,25.61,Quill.com
+90,Lamar,South Carolina,29069,feminine hygiene products,1.0,203.76,School Specialty
+91,Elizabeth,New Jersey,7206,masks,1.0,14.44,Amazon Business
+92,Danville,California,94526,socks,1.0,25.21,Quill.com
+93,Salina,Kansas,67401,granola bars,6.0,3.49,Amazon Business
+94,Eugene,Oregon,97405,shirts,1.0,299.99,Best Buy Education
+95,Wilmington,California,90744,masks,1.0,186.89,Best Buy Education
+96,Simsboro,Louisiana,71275,toilet paper,4.0,107.06,Kaplan Early Learning Company
+97,Lake Worth,Florida,33467,masks,4.0,34.53,Blick Art Materials
+98,Sanford,North Carolina,27332,gloves,2.0,7.19,Blick Art Materials
+99,Thorp,Washington,98946,granola bars,5.0,13.55,Blick Art Materials
+100,Saint Paul,Minnesota,55130,toilet paper,25.0,5.56,Blick Art Materials
+101,Rock Spring,Georgia,30739,toilet paper,1.0,21.43,Blick Art Materials
+102,Fort Smith,Arkansas,72903,masks,10.0,6.36,Blick Art Materials
+103,Wilmington,North Carolina,28411,granola bars,5.0,6.76,Blick Art Materials
+104,Cumberland,Rhode Island,2864,socks,5.0,8.43,Blick Art Materials
+105,Whitehall,Michigan,49461,shirts,1.0,14.99,Teachers' School Supply
+106,Sioux Falls,South Dakota,57103,shirts,1.0,20.99,Teachers' School Supply
+107,Little Rock,Arkansas,72209,feminine hygiene products,1.0,28.39,Staples Advantage
+108,Atlanta,Georgia,30316,granola bars,1.0,28.35,Carolina Biological Supply Company
+109,Cambridge,Ohio,43725,socks,1.0,24.61,Blick Art Materials
+110,Hampton,Georgia,30228,toothpaste,1.0,16.11,Kaplan Early Learning Company
+111,San Francisco,California,94114,shirts,1.0,33.59,Teachers' School Supply
+112,Everett,Massachusetts,2149,granola bars,1.0,4.6,Staples Advantage
+113,Sandy,Utah,84094,feminine hygiene products,1.0,85.19,Staples Advantage
+114,La Harpe,Illinois,61450,socks,2.0,23.19,Lakeshore Learning Materials
+115,Jamaica Plain,Massachusetts,2130,masks,1.0,26.22,Teachers' School Supply
+116,Laton,California,93242,granola bars,1.0,11.04,Kaplan Early Learning Company
+117,Bennington,Nebraska,68007,shirts,4.0,175.77,CDW-G
+118,Defiance,Ohio,43512,shirts,2.0,13.82,CDW-G
+119,Clarksville,Virginia,23927,gloves,8.0,5.92,CDW-G
+120,Cumberland,Kentucky,40823,granola bars,1.0,103.2,Lakeshore Learning Materials
+121,Asheville,North Carolina,28806,socks,1.0,99.5,Lakeshore Learning Materials
+122,Appleton,Wisconsin,54915,feminine hygiene products,8.0,49.99,Amazon Business
+123,Mountlake Terrace,Washington,98043,granola bars,30.0,9.99,Amazon Business
+124,Wernersville,Pennsylvania,19565,gloves,3.0,13.99,Woodwind and Brasswind
+125,Harker Hts,Texas,76548,toothpaste,1.0,32.79,Woodwind and Brasswind
+126,Calverton,New York,11933,masks,1.0,349.95,Amazon Business
+127,Dover Plains,New York,12522,gloves,5.0,39.89,Amazon Business
+128,Prince Frederick,Maryland,20678,granola bars,15.0,9.49,Scholastic Classroom Magazines
+129,New York City,New York,11220,socks,15.0,9.99,Scholastic Classroom Magazines
+130,Richmond,Maine,4357,socks,2.0,176.99,Best Buy Education
+131,Mt Pleasant,Texas,75455,shirts,1.0,49.99,Lakeshore Learning Materials
+132,Commerce City,Colorado,80022,shirts,3.0,35.52,Amazon Business
+133,Vista,California,92084,toothpaste,1.0,13.99,Amazon Business
+134,Moody,Alabama,35004,toilet paper,9.0,6.99,Amazon Business
+135,Grand Jct,Colorado,81504,gloves,3.0,17.99,Lakeshore Learning Materials
+136,Austin,Texas,78751,shirts,1.0,329.99,Best Buy Education
+137,Moberly,Missouri,65270,toilet paper,2.0,27.64,CDW-G
+138,Bridgeton,New Jersey,8302,shirts,9.0,3.93,CDW-G
+139,Williston,South Carolina,29853,shirts,3.0,15.79,CDW-G
+140,Great Falls,Montana,59405,toothpaste,32.0,5.83,AKJ Education
+141,Chicago,Illinois,60622,granola bars,1.0,29.99,Lakeshore Learning Materials
+142,Boynton Beach,Florida,33426,gloves,1.0,29.99,Lakeshore Learning Materials
+143,New York City,New York,11432,gloves,1.0,29.99,Lakeshore Learning Materials
+144,Plano,Texas,75074,toothpaste,1.0,29.99,Lakeshore Learning Materials
+145,Panama City,Florida,32401,feminine hygiene products,1.0,8.99,Lakeshore Learning Materials
+146,Russellville,Tennessee,37860,masks,1.0,529.99,Best Buy Education
+147,Coopersville,Michigan,49404,feminine hygiene products,1.0,8.08,Carolina Biological Supply Company
+148,Pearl,Mississippi,39208,masks,1.0,117.33,Carolina Biological Supply Company
+149,Mooreville,Mississippi,38857,toilet paper,1.0,9.03,Carolina Biological Supply Company
+150,Dallas,Texas,75224,masks,1.0,8.31,Carolina Biological Supply Company
+151,Flint,Michigan,48504,masks,1.0,45.84,Carolina Biological Supply Company
+152,Oglesby,Texas,76561,toothpaste,1.0,4.51,Carolina Biological Supply Company
+153,Nutley,New Jersey,7110,toothpaste,3.0,10.69,Carolina Biological Supply Company
+154,New York City,New York,11433,feminine hygiene products,4.0,7.63,Grainger
+155,Ashby,Minnesota,56309,granola bars,4.0,45.41,Grainger
+156,Manchester,Connecticut,6040,socks,4.0,175.0,Amazon Business
+157,El Paso,Texas,79925,masks,1.0,19.0,Amazon Business
+158,Kerman,California,93630,gloves,1.0,24.0,Amazon Business
+159,Chattanooga,Tennessee,37405,granola bars,1.0,99.0,Amazon Business
+160,Los Angeles,California,90037,granola bars,1.0,6.29,Amazon Business
+161,N Royalton,Ohio,44133,granola bars,2.0,10.16,Kaplan Early Learning Company
+162,Schenectady,New York,12303,toilet paper,1.0,101.96,Kaplan Early Learning Company
+163,Mesa,Arizona,85201,granola bars,1.0,45.01,Kaplan Early Learning Company
+164,Osage Beach,Missouri,65065,toilet paper,1.0,72.21,Kaplan Early Learning Company
+165,Chalmette,Louisiana,70043,toilet paper,1.0,246.46,Kaplan Early Learning Company
+166,Klein,Texas,77379,toothpaste,1.0,45.01,Kaplan Early Learning Company
+167,Kansas City,Kansas,66106,toothpaste,1.0,67.96,Kaplan Early Learning Company
+168,Anderson,Indiana,46013,shirts,1.0,151.87,School Specialty
+169,New Windsor,New York,12553,granola bars,3.0,49.99,Amazon Business
+170,Edmonds,Washington,98026,feminine hygiene products,8.0,26.0,Amazon Business
+171,Mullica Hill,New Jersey,8062,toothpaste,5.0,5.29,Amazon Business
+172,Revere,Massachusetts,2151,toilet paper,3.0,9.99,Amazon Business
+173,Cranford,New Jersey,7016,granola bars,5.0,5.31,Amazon Business
+174,Sunnyside,Washington,98944,shirts,1.0,19.99,Woodwind and Brasswind
+175,Social Circle,Georgia,30025,shirts,1.0,80.0,Woodwind and Brasswind
+176,Charlotte,North Carolina,28262,shirts,1.0,30.99,Woodwind and Brasswind
+177,Santa Clara,California,95051,gloves,1.0,315.47,Best Buy Education
+178,Orlando,Florida,32805,socks,1.0,315.46,Best Buy Education
+179,Capon Bridge,West Virginia,26711,toothpaste,4.0,10.99,Amazon Business
+180,San Antonio,Texas,78202,shirts,1.0,208.94,Amazon Business
+181,Adena,Ohio,43901,toilet paper,1.0,21.99,Amazon Business
+182,Ryan,Oklahoma,73565,gloves,1.0,13.16,Amazon Business
+183,Walla Walla,Washington,99362,masks,2.0,109.95,Amazon Business
+184,Tempe,Arizona,85283,toilet paper,35.0,9.79,Amazon Business
+185,Santa Clarita,California,91355,granola bars,5.0,66.49,Amazon Business
+186,Antioch,California,94531,granola bars,1.0,53.99,Amazon Business
+187,Waller,Texas,77484,socks,1.0,7.99,Amazon Business
+188,Noble,Oklahoma,73068,granola bars,1.0,9.99,Amazon Business
+189,Columbus,Ohio,43232,feminine hygiene products,1.0,9.99,Amazon Business
+190,Saginaw,Michigan,48604,feminine hygiene products,2.0,7.99,Amazon Business
+191,Navarre,Ohio,44662,toilet paper,1.0,9.89,Amazon Business
+192,Glasgow,Montana,59230,socks,1.0,8.99,Amazon Business
+193,Valley Glen,California,91401,socks,1.0,9.99,Amazon Business
+194,Devine,Texas,78016,feminine hygiene products,1.0,10.99,Amazon Business
+195,San Antonio,Texas,78232,socks,1.0,10.49,Amazon Business
+196,New York City,New York,10011,feminine hygiene products,1.0,7.99,Amazon Business
+197,Fremont,North Carolina,27830,toilet paper,1.0,10.0,Amazon Business
+198,Griffith,Indiana,46319,socks,1.0,10.99,Amazon Business
+199,Essex,Missouri,63846,toilet paper,1.0,7.99,Amazon Business
+200,La Porte,Texas,77571,shirts,1.0,7.99,Amazon Business
+201,Wayne,New Jersey,7470,gloves,1.0,10.99,Amazon Business
+202,Worcester,Massachusetts,1606,toothpaste,1.0,4.99,Amazon Business
+203,Island Hgts,New Jersey,8732,feminine hygiene products,1.0,9.99,Amazon Business
+204,Harlingen,Texas,78550,toilet paper,1.0,9.0,Amazon Business
+205,Etiwanda,California,91739,gloves,1.0,9.99,Amazon Business
+206,Tampa,Florida,33610,shirts,1.0,10.99,Amazon Business
+207,New York City,New York,10456,masks,1.0,8.99,Amazon Business
+208,Oakland,California,94618,feminine hygiene products,1.0,9.99,Amazon Business
+209,Elizabeth,New Jersey,7202,toilet paper,6.0,39.99,Amazon Business
+210,Wood River Jt,Rhode Island,2894,toilet paper,2.0,189.0,Amazon Business
+211,Leander,Texas,78641,feminine hygiene products,1.0,99.99,Amazon Business
+212,Grand Chenier,Louisiana,70643,socks,1.0,114.99,Amazon Business
+213,Arlington,Texas,76010,feminine hygiene products,1.0,148.13,Amazon Business
+214,Pittsburg,California,94565,gloves,1.0,13.4,Amazon Business
+215,Crestview,Florida,32536,granola bars,1.0,14.24,Amazon Business
+216,Soledad,California,93960,masks,1.0,479.0,Lakeshore Learning Materials
+217,Chicago,Illinois,60628,masks,1.0,670.0,Amazon Business
+218,Defuniak Springs,Florida,32435,feminine hygiene products,2.0,64.62,Woodwind and Brasswind
+219,Los Angeles,California,90032,granola bars,1.0,17.73,Woodwind and Brasswind
+220,Los Angeles,California,90044,toilet paper,3.0,24.36,Woodwind and Brasswind
+221,Pomona,California,91766,toilet paper,3.0,12.99,Woodwind and Brasswind
+222,Granada Hills,California,91344,socks,1.0,37.78,Woodwind and Brasswind
+223,Las Vegas,Nevada,89141,toilet paper,2.0,62.68,Woodwind and Brasswind
+224,Sterling,Virginia,20164,masks,1.0,35.83,Woodwind and Brasswind
+225,Atlanta,Georgia,30305,granola bars,1.0,16.99,Woodwind and Brasswind
+226,San Jose,California,95122,shirts,1.0,46.17,Woodwind and Brasswind
+227,Fairfax,Virginia,22030,shirts,1.0,17.28,Woodwind and Brasswind
+228,Pacoima,California,91331,shirts,3.0,50.99,Woodwind and Brasswind
+229,Edgartown,Massachusetts,2539,feminine hygiene products,2.0,55.49,Woodwind and Brasswind
+230,Richardson,Texas,75081,toilet paper,1.0,14.99,Woodwind and Brasswind
+231,Davenport,Iowa,52806,shirts,1.0,16.11,Woodwind and Brasswind
+232,Turlock,California,95380,toothpaste,3.0,42.57,Woodwind and Brasswind
+233,North Canton,Ohio,44720,toilet paper,1.0,35.12,Woodwind and Brasswind
+234,Richmond,Texas,77407,granola bars,1.0,269.0,Lakeshore Learning Materials
+235,Rye,New Hampshire,3870,masks,1.0,269.0,Lakeshore Learning Materials
+236,Independence,Missouri,64055,toothpaste,3.0,170.19,Amazon Business
+237,New York City,New York,11427,toothpaste,1.0,5.06,Kaplan Early Learning Company
+238,Auburn,Alabama,36830,masks,1.0,4.24,Kaplan Early Learning Company
+239,Philadelphia,Pennsylvania,19103,feminine hygiene products,1.0,25.46,Kaplan Early Learning Company
+240,Dalton,Georgia,30721,shirts,1.0,5.91,Kaplan Early Learning Company
+241,Washington,Illinois,61571,feminine hygiene products,2.0,17.81,Kaplan Early Learning Company
+242,Albuquerque,New Mexico,87106,toilet paper,1.0,4.21,Kaplan Early Learning Company
+243,Jonesboro,Indiana,46938,shirts,1.0,19.51,Kaplan Early Learning Company
+244,Dacula,Georgia,30019,granola bars,2.0,5.5,School Specialty
+245,Gloucester,Virginia,23061,shirts,1.0,18.33,School Specialty
+246,St Louis Park,Minnesota,55426,toothpaste,1.0,25.17,School Specialty
+247,Rohnert Park,California,94928,masks,2.0,12.99,Lakeshore Learning Materials
+248,Sherman,Texas,75090,shirts,1.0,10.92,School Specialty
+249,New Orleans,Louisiana,70118,gloves,1.0,14.99,Lakeshore Learning Materials
+250,New York City,New York,11215,masks,2.0,9.49,Lakeshore Learning Materials
+251,American Fork,Utah,84003,masks,2.0,4.65,School Specialty
+252,Yucca Valley,California,92284,toothpaste,1.0,4.74,School Specialty
+253,Somerset,New Jersey,8873,socks,1.0,14.24,School Specialty
+254,Shillington,Pennsylvania,19607,socks,1.0,4.74,School Specialty
+255,Brookhaven,Pennsylvania,19015,toothpaste,1.0,4.74,School Specialty
+256,Saint Louis,Missouri,63111,shirts,2.0,8.73,School Specialty
+257,Kokomo,Indiana,46901,feminine hygiene products,1.0,4.74,School Specialty
+258,Dayton,Ohio,45417,granola bars,1.0,14.99,Amazon Business
+259,Carleton,Michigan,48117,feminine hygiene products,1.0,20.99,Amazon Business
+260,Evansville,Indiana,47710,masks,1.0,13.36,Amazon Business
+261,Oakbrook Ter,Illinois,60181,gloves,1.0,13.99,Amazon Business
+262,Cedar Rapids,Iowa,52402,toothpaste,1.0,9.0,Amazon Business
+263,Oak Lawn,Illinois,60453,granola bars,1.0,9.99,Amazon Business
+264,Nesquehoning,Pennsylvania,18240,feminine hygiene products,1.0,8.99,Amazon Business
+265,Thornton,Colorado,80229,toilet paper,1.0,12.49,Amazon Business
+266,Prospect Hts,Illinois,60070,toothpaste,1.0,372.99,Amazon Business
+267,Kansas City,Missouri,64130,toothpaste,1.0,139.0,Amazon Business
+268,Nowata,Oklahoma,74048,gloves,10.0,32.99,Lakeshore Learning Materials
+269,Hartford,Connecticut,6103,granola bars,40.0,0.99,Scholastic Classroom Magazines
+270,Glen Burnie,Maryland,21060,gloves,1.0,499.0,Lakeshore Learning Materials
+271,Dallas,Texas,75238,toilet paper,1.0,249.0,Lakeshore Learning Materials
+272,Oklahoma City,Oklahoma,73162,socks,1.0,128.7,CDW-G
+273,Huntingtn Beach,California,92647,socks,1.0,47.52,CDW-G
+274,Wolcott,Connecticut,6716,toilet paper,1.0,247.5,CDW-G
+275,Tonica,Illinois,61370,socks,1.0,98.01,CDW-G
+276,Croydon,Pennsylvania,19021,toilet paper,1.0,279.0,Amazon Business
+277,Sasakwa,Oklahoma,74867,shirts,1.0,173.75,Amazon Business
+278,Eagle Point,Oregon,97524,feminine hygiene products,3.0,12.25,Amazon Business
+279,Pasadena,California,91107,masks,10.0,8.94,Amazon Business
+280,Corpus Christi,Texas,78411,toothpaste,1.0,21.99,Amazon Business
+281,Orange,Texas,77630,granola bars,2.0,33.99,Amazon Business
+282,Knoxville,Tennessee,37922,granola bars,1.0,24.99,Amazon Business
+283,Baltimore,Maryland,21207,shirts,1.0,7.29,Amazon Business
+284,Longmeadow,Massachusetts,1106,granola bars,1.0,10.49,Amazon Business
+285,Sequim,Washington,98382,shirts,1.0,20.99,Amazon Business
+286,Virginia Beach,Virginia,23452,shirts,1.0,37.99,Amazon Business
+287,,District of Columbia,20009,granola bars,1.0,8.57,Amazon Business
+288,Chicago,Illinois,60647,toothpaste,1.0,64.99,Amazon Business
+289,Bethany,Oklahoma,73008,socks,1.0,29.99,Amazon Business
+290,Mesa,Arizona,85207,shirts,1.0,7.49,Amazon Business
+291,Powell,Ohio,43065,gloves,1.0,9.8,Amazon Business
+292,Albany,Georgia,31701,socks,1.0,14.99,Amazon Business
+293,New York City,New York,11203,gloves,1.0,9.25,Amazon Business
+294,Las Vegas,Nevada,89115,shirts,4.0,9.95,Amazon Business
+295,Whitehall,Wisconsin,54773,masks,1.0,8.5,Amazon Business
+296,Cherry Hill,New Jersey,8034,socks,1.0,18.99,Amazon Business
+297,Bennington,Kansas,67422,granola bars,1.0,11.99,Amazon Business
+298,Deerfield,Wisconsin,53531,socks,2.0,16.99,Amazon Business
+299,Nashville,North Carolina,27856,socks,1.0,624.99,Best Buy Education
+300,Dayton,Ohio,45403,granola bars,1.0,9.34,AKJ Education
+301,Tulare,California,93274,toothpaste,3.0,5.99,Lakeshore Learning Materials
+302,Los Angeles,California,90011,toilet paper,1.0,2.91,AKJ Education
+303,Cincinnati,Ohio,45245,toothpaste,1.0,14.99,Lakeshore Learning Materials
+304,Los Altos,California,94024,granola bars,2.0,6.99,Lakeshore Learning Materials
+305,Port Orchard,Washington,98366,toothpaste,1.0,10.91,AKJ Education
+306,Colquitt,Georgia,39837,gloves,1.0,17.47,AKJ Education
+307,Rochester Hls,Michigan,48307,granola bars,3.0,5.99,Lakeshore Learning Materials
+308,Benton Harbor,Michigan,49022,shirts,2.0,6.99,Lakeshore Learning Materials
+309,Riverside,California,92506,socks,2.0,6.99,Lakeshore Learning Materials
+310,Saint Louis,Missouri,63120,granola bars,1.0,12.4,AKJ Education
+311,Oakland,Maryland,21550,granola bars,1.0,19.99,Lakeshore Learning Materials
+312,Cahokia,Illinois,62206,toothpaste,1.0,13.49,AKJ Education
+313,Spring Arbor,Michigan,49283,granola bars,,,
+314,Houston,Texas,77023,shirts,19.0,6.29,Amazon Business
+315,Houston,Texas,77081,granola bars,19.0,94.0,Amazon Business
+316,Villa Rica,Georgia,30180,masks,18.0,15.9,Amazon Business
+317,Bonne Terre,Missouri,63628,gloves,1.0,7.99,Amazon Business
+318,Rolla,Missouri,65401,granola bars,1.0,243.9,Amazon Business
+319,Skowhegan,Maine,4976,toilet paper,1.0,9.99,Amazon Business
+320,Parrish,Florida,34219,masks,1.0,79.99,Lakeshore Learning Materials
+321,Saint Louis,Missouri,63104,masks,1.0,349.0,Lakeshore Learning Materials
+322,Elgin,Illinois,60123,gloves,1.0,20.92,Best Buy Education
+323,Clarksville,Tennessee,37043,shirts,1.0,21.2,Best Buy Education
+324,Victoria,Texas,77905,socks,1.0,32.75,Best Buy Education
+325,Indianapolis,Indiana,46240,toilet paper,1.0,57.99,Teachers' School Supply
+326,Angola,Indiana,46703,toilet paper,1.0,295.13,Best Buy Education
+327,Bridgeport,Alabama,35740,masks,1.0,21.04,Best Buy Education
+328,Roswell,Georgia,30076,socks,1.0,118.75,Best Buy Education
+329,Woodbury,Minnesota,55125,granola bars,1.0,103.94,CDW-G
+330,Tucson,Arizona,85716,shirts,1.0,5.08,Amazon Business
+331,Moorhead,Minnesota,56560,toothpaste,1.0,17.99,Amazon Business
+332,New York City,New York,11420,feminine hygiene products,1.0,6.72,Amazon Business
+333,Houston,Texas,77083,feminine hygiene products,1.0,3.38,Amazon Business
+334,Levittown,Pennsylvania,19056,masks,1.0,3.38,Amazon Business
+335,De Ruyter,New York,13052,socks,1.0,10.47,Amazon Business
+336,Glen Ellyn,Illinois,60137,socks,1.0,3.38,Amazon Business
+337,Lincoln Park,Michigan,48146,toothpaste,1.0,7.99,Amazon Business
+338,Independence,Kansas,67301,socks,1.0,63.65,Amazon Business
+339,Wilmette,Illinois,60091,masks,1.0,6.25,Amazon Business
+340,Reno,Nevada,89509,granola bars,1.0,52.16,Amazon Business
+341,Bartow,Florida,33830,toilet paper,1.0,5.16,Amazon Business
+342,Writsvlle Beach,North Carolina,28480,gloves,1.0,5.36,Amazon Business
+343,Waimanalo,Hawaii,96795,masks,1.0,6.95,Amazon Business
+344,Ft Washington,Maryland,20744,granola bars,1.0,12.58,Amazon Business
+345,Las Vegas,Nevada,89156,toothpaste,1.0,49.99,Amazon Business
+346,New York City,New York,11104,granola bars,1.0,39.99,Amazon Business
+347,Evansville,Indiana,47714,socks,1.0,6.95,Amazon Business
+348,Saint Peters,Missouri,63376,socks,1.0,6.95,Amazon Business
+349,Columbia,South Carolina,29203,shirts,1.0,3.38,Amazon Business
+350,Reno,Nevada,89523,socks,1.0,3.77,Amazon Business
+351,Bay City,Michigan,48706,toothpaste,1.0,14.04,Amazon Business
+352,Elk City,Oklahoma,73644,socks,1.0,6.95,Amazon Business
+353,Yuma,Arizona,85364,gloves,1.0,3.38,Amazon Business
+354,Gallup,New Mexico,87301,granola bars,1.0,6.95,Amazon Business
+355,Westmont,Illinois,60559,granola bars,1.0,4.03,Amazon Business
+356,Chicago,Illinois,60632,gloves,1.0,8.51,Amazon Business
+357,Charleston,South Carolina,29405,granola bars,1.0,6.95,Amazon Business
+358,Waynesville,North Carolina,28785,socks,1.0,6.95,Amazon Business
+359,Bridgeport,Connecticut,6608,socks,1.0,18.54,Amazon Business
+360,Barbourville,Kentucky,40906,toilet paper,1.0,19.08,Amazon Business
+361,Baltimore,Maryland,21216,socks,1.0,6.64,Amazon Business
+362,Castroville,California,95012,granola bars,1.0,6.95,Amazon Business
+363,Snowville,Utah,84336,feminine hygiene products,1.0,32.32,Amazon Business
+364,Grand Rapids,Michigan,49525,gloves,1.0,28.39,Amazon Business
+365,Reseda,California,91335,feminine hygiene products,1.0,3.38,Amazon Business
+366,Pittsburgh,Pennsylvania,15201,toothpaste,1.0,13.9,Amazon Business
+367,Howey In Hls,Florida,34737,toothpaste,1.0,21.99,Lakeshore Learning Materials
+368,Dallas,Texas,75215,socks,3.0,16.99,Lakeshore Learning Materials
+369,Southern Pines,North Carolina,28387,gloves,1.0,21.99,Lakeshore Learning Materials
+370,New Orleans,Louisiana,70117,socks,1.0,21.99,Lakeshore Learning Materials
+371,Pontiac,Michigan,48342,granola bars,1.0,21.99,Lakeshore Learning Materials
+372,Bellaire,Michigan,49615,feminine hygiene products,3.0,86.99,Amazon Business
+373,Lexington,South Carolina,29073,shirts,1.0,29.64,Amazon Business
+374,Lexington Pk,Maryland,20653,masks,,,
+375,El Dorado,Arkansas,71730,toilet paper,3.0,149.99,Best Buy Education
+376,Garner,North Carolina,27529,feminine hygiene products,2.0,265.96,Best Buy Education
+377,Lansing,Michigan,48912,toothpaste,1.0,6.97,Carolina Biological Supply Company
+378,Charlotte,North Carolina,28270,feminine hygiene products,1.0,2.65,Carolina Biological Supply Company
+379,Orlando,Florida,32809,granola bars,1.0,114.75,Carolina Biological Supply Company
+380,Haines,Alaska,99827,socks,6.0,64.99,DICK'S Sporting Goods
+381,San Francisco,California,94134,granola bars,4.0,25.0,DICK'S Sporting Goods
+382,Porcupine,South Dakota,57772,gloves,1.0,6.99,Amazon Business
+383,Gore,Oklahoma,74435,granola bars,1.0,6.07,Amazon Business
+384,Eugene,Oregon,97404,gloves,1.0,11.68,Amazon Business
+385,Meridian,Idaho,83646,toothpaste,1.0,7.61,Amazon Business
+386,Colorado Spgs,Colorado,80916,toothpaste,1.0,16.37,Amazon Business
+387,Cumberlnd Ctr,Maine,4021,masks,1.0,9.45,Amazon Business
+388,Topeka,Kansas,66604,toothpaste,1.0,6.0,Amazon Business
+389,Oklahoma City,Oklahoma,73127,shirts,1.0,6.99,Amazon Business
+390,Loveland,Colorado,80537,shirts,1.0,6.94,Amazon Business
+391,Fishers,Indiana,46037,toilet paper,1.0,7.99,Amazon Business
+392,Kuna,Idaho,83634,toilet paper,1.0,6.04,Amazon Business
+393,Oshkosh,Wisconsin,54902,toilet paper,1.0,13.31,Amazon Business
+394,Eldon,Iowa,52554,toilet paper,1.0,6.41,Amazon Business
+395,Shaker Hts,Ohio,44120,feminine hygiene products,1.0,12.38,Amazon Business
+396,Cloquet,Minnesota,55720,toothpaste,1.0,6.94,Amazon Business
+397,Wrightsville,Georgia,31096,feminine hygiene products,1.0,7.95,Amazon Business
+398,Blacksburg,Virginia,24060,socks,1.0,6.0,Amazon Business
+399,Statham,Georgia,30666,socks,1.0,12.62,Amazon Business
+400,Hagerstown,Maryland,21742,granola bars,1.0,5.99,Amazon Business
+401,Lake Villa,Illinois,60046,toilet paper,1.0,7.99,Amazon Business
+402,Stanley,North Carolina,28164,feminine hygiene products,1.0,15.26,Amazon Business
+403,Sterling,Illinois,61081,socks,5.0,184.2,Best Buy Education
+404,Oviedo,Florida,32765,toilet paper,1.0,399.99,Best Buy Education
+405,Houston,Texas,77080,shirts,1.0,25.95,Amazon Business
+406,Cottage Grove,Oregon,97424,feminine hygiene products,1.0,19.95,Amazon Business
+407,Reading,Pennsylvania,19601,granola bars,2.0,13.99,Amazon Business
+408,Laona,Wisconsin,54541,socks,1.0,499.0,Amazon Business
+409,Highland,Indiana,46322,toilet paper,1.0,18.4,Amazon Business
+410,Apple Valley,California,92307,masks,1.0,69.99,Amazon Business
+411,Collingswood,New Jersey,8108,masks,7.0,15.97,Amazon Business
+412,Milwaukee,Wisconsin,53207,feminine hygiene products,6.0,4.49,AKJ Education
+413,Sparta,Tennessee,38583,feminine hygiene products,6.0,4.49,AKJ Education
+414,Bellevue,Nebraska,68123,toilet paper,6.0,4.49,AKJ Education
+415,Altamont,Tennessee,37301,socks,6.0,2.91,AKJ Education
+416,Los Angeles,California,90011,gloves,6.0,4.49,AKJ Education
+417,Greeneville,Tennessee,37745,gloves,6.0,4.49,AKJ Education
+418,Kelseyville,California,95451,granola bars,6.0,4.49,AKJ Education
+419,Moreno Valley,California,92553,toothpaste,5.0,2.77,School Specialty
+420,Mauldin,South Carolina,29662,socks,400.0,3.33,School Specialty
+421,Arlington,Texas,76001,socks,80.0,1.51,School Specialty
+422,Pembroke,Georgia,31321,granola bars,100.0,1.2,School Specialty
+423,Peosta,Iowa,52068,toilet paper,10.0,2.24,School Specialty
+424,New Braunfels,Texas,78130,granola bars,1.0,84.96,Kaplan Early Learning Company
+425,Safford,Arizona,85546,feminine hygiene products,3.0,107.06,Kaplan Early Learning Company
+426,College Park,Georgia,30349,shirts,5.0,7.73,Amazon Business
+427,Alvin,Texas,77511,socks,1.0,8.99,Lakeshore Learning Materials
+428,Grand Rapids,Michigan,49507,gloves,2.0,2.29,Lakeshore Learning Materials
+429,Coral Springs,Florida,33065,gloves,2.0,2.29,Lakeshore Learning Materials
+430,Fresno,California,93704,gloves,2.0,2.29,Lakeshore Learning Materials
+431,Pickerington,Ohio,43147,shirts,1.0,16.99,Lakeshore Learning Materials
+432,Norfolk,Virginia,23523,toothpaste,2.0,2.29,Lakeshore Learning Materials
+433,Orangeville,Illinois,61060,masks,2.0,2.29,Lakeshore Learning Materials
+434,Terrytown,Louisiana,70056,shirts,1.0,8.99,Lakeshore Learning Materials
+435,Saint Clair,Minnesota,56080,toilet paper,1.0,29.99,Lakeshore Learning Materials
+436,New York City,New York,10011,masks,2.0,14.99,Lakeshore Learning Materials
+437,Chicago,Illinois,60643,feminine hygiene products,2.0,2.29,Lakeshore Learning Materials
+438,Richmond,Texas,77406,granola bars,2.0,2.29,Lakeshore Learning Materials
+439,Ezel,Kentucky,41425,toothpaste,2.0,12.99,Lakeshore Learning Materials
+440,Belleville,Illinois,62226,toilet paper,2.0,14.99,Lakeshore Learning Materials
+441,Easton,Pennsylvania,18045,shirts,2.0,2.29,Lakeshore Learning Materials
+442,Anchorage,Alaska,99504,socks,10.0,2.79,Lakeshore Learning Materials
+443,Centerville,Georgia,31028,toilet paper,2.0,4.99,Lakeshore Learning Materials
+444,New York City,New York,11221,feminine hygiene products,2.0,2.29,Lakeshore Learning Materials
+445,Mooresville,North Carolina,28117,toilet paper,2.0,2.29,Lakeshore Learning Materials
+446,Kansas City,Missouri,64153,toothpaste,1.0,10.13,Amazon Business
+447,Lamar,Missouri,64759,masks,1.0,7.54,Amazon Business
+448,Henrico,Virginia,23233,feminine hygiene products,1.0,6.4,Amazon Business
+449,Yonkers,New York,10704,gloves,3.0,6.23,Amazon Business
+450,Napa,California,94558,granola bars,1.0,4.99,Amazon Business
+451,Rice Lake,Wisconsin,54868,gloves,1.0,5.99,Amazon Business
+452,Davie,Florida,33328,toothpaste,1.0,9.18,Amazon Business
+453,New York City,New York,11413,toilet paper,1.0,5.99,Amazon Business
+454,New Castle,Indiana,47362,gloves,1.0,3.99,Amazon Business
+455,Enterprise,Alabama,36330,socks,1.0,6.95,Amazon Business
+456,Phoenix,Arizona,85032,granola bars,1.0,26.81,Amazon Business
+457,Londonderry,New Hampshire,3053,toothpaste,1.0,7.95,Amazon Business
+458,Marana,Arizona,85653,granola bars,1.0,7.54,Amazon Business
+459,Sanger,California,93657,shirts,1.0,6.97,Amazon Business
+460,Hampton,Virginia,23666,feminine hygiene products,1.0,4.99,Amazon Business
+461,Glen Burnie,Maryland,21060,masks,1.0,7.52,Amazon Business
+462,Paris,Texas,75460,shirts,1.0,287.95,Amazon Business
+463,Paw Paw,Michigan,49079,socks,1.0,7.93,Amazon Business
+464,Rochester,New York,14626,masks,1.0,7.99,Amazon Business
+465,Merkel,Texas,79536,toothpaste,1.0,169.99,Amazon Business
+466,Tulare,California,93274,feminine hygiene products,15.0,10.99,Amazon Business
+467,Inkom,Idaho,83245,toilet paper,3.0,59.4,Amazon Business
+468,Baltimore,Maryland,21229,gloves,3.0,39.99,Amazon Business
+469,Sylva,North Carolina,28779,toothpaste,10.0,10.99,Amazon Business
+470,Pomona,California,91767,granola bars,10.0,7.99,Lakeshore Learning Materials
+471,Pollock,Louisiana,71467,shirts,1.0,14.98,Amazon Business
+472,Winnebago,Illinois,61088,feminine hygiene products,1.0,49.99,Lakeshore Learning Materials
+473,Cedar Hill,Texas,75104,masks,3.0,18.99,Amazon Business
+474,Salem,Missouri,65560,shirts,1.0,9.99,Amazon Business
+475,Lyles,Tennessee,37098,granola bars,1.0,12.71,Amazon Business
+476,Haxtun,Colorado,80731,shirts,3.0,18.99,Amazon Business
+477,Killeen,Texas,76542,granola bars,1.0,349.0,Lakeshore Learning Materials
+478,Jamaica Plain,Massachusetts,2130,shirts,1.0,40.5,Lakeshore Learning Materials
+479,Littlestown,Pennsylvania,17340,granola bars,1.0,39.5,Lakeshore Learning Materials
+480,Metolius,Oregon,97741,gloves,1.0,388.55,Amazon Business
+481,Tampa,Florida,33647,gloves,1.0,18.98,Amazon Business
+482,Hanover,Pennsylvania,17331,toothpaste,5.0,32.95,Amazon Business
+483,Eden,Wisconsin,53019,toilet paper,1.0,43.99,Amazon Business
+484,Homewood,Alabama,35209,toilet paper,5.0,10.99,Amazon Business
+485,Banks,Oregon,97106,toothpaste,1.0,11.01,Amazon Business
+486,Raleigh,North Carolina,27601,masks,1.0,22.29,Amazon Business
+487,Baton Rouge,Louisiana,70805,toothpaste,10.0,188.66,Best Buy Education
+488,Metuchen,New Jersey,8840,feminine hygiene products,4.0,13.62,School Specialty
+489,Oxnard,California,93030,feminine hygiene products,3.0,2.12,School Specialty
+490,Apopka,Florida,32703,toothpaste,3.0,14.41,Kaplan Early Learning Company
+491,Reno,Nevada,89521,shirts,5.0,1.97,Blick Art Materials
+492,Houston,Mississippi,38851,granola bars,1.0,22.54,Blick Art Materials
+493,Chickamauga,Georgia,30707,shirts,3.0,6.68,Amazon Business
+494,Piggott,Arkansas,72454,toothpaste,4.0,8.49,Blick Art Materials
+495,Suffolk,Virginia,23434,toilet paper,2.0,12.62,Amazon Business
+496,New York City,New York,11201,masks,1.0,83.93,CDW-G
+497,Lumberton,North Carolina,28358,toothpaste,1.0,9.05,Amazon Business
+498,Pittsburgh,Pennsylvania,15212,feminine hygiene products,1.0,62.99,Best Buy Education
+499,Oneonta,Alabama,35121,socks,35.0,2.83,School Specialty
+500,Murrieta,California,92563,toothpaste,1.0,20.85,School Specialty
+501,Cedar City,Utah,84721,toilet paper,1.0,5.5,School Specialty
+502,Rio Vista,Texas,76093,gloves,4.0,10.92,School Specialty
+503,Copperas Cove,Texas,76522,feminine hygiene products,1.0,15.19,School Specialty
+504,Mission,Texas,78572,feminine hygiene products,1.0,45.99,Lakeshore Learning Materials
+505,Texarkana,Texas,75503,socks,1.0,59.99,Lakeshore Learning Materials
+506,San Antonio,Texas,78239,feminine hygiene products,2.0,14.24,School Specialty
+507,Houston,Texas,77016,shirts,35.0,0.55,School Specialty
+508,Foster City,California,94404,toothpaste,3.0,7.4,School Specialty
+509,Smyrna,Tennessee,37167,toilet paper,15.0,1.23,School Specialty
+510,Leeds,Alabama,35094,shirts,1.0,1099.99,Best Buy Education
+511,Rochester,New Hampshire,3867,gloves,1.0,14.09,Amazon Business
+512,San Diego,California,92102,granola bars,1.0,230.0,Amazon Business
+513,Pocatello,Idaho,83201,feminine hygiene products,1.0,155.0,Woodwind and Brasswind
+514,New York City,New York,10474,gloves,1.0,43.88,Woodwind and Brasswind
+515,Mechanic Fls,Maine,4256,granola bars,1.0,31.99,Woodwind and Brasswind
+516,Poplarville,Mississippi,39470,toothpaste,1.0,349.0,Woodwind and Brasswind
+517,Wheat Ridge,Colorado,80033,masks,2.0,63.0,Woodwind and Brasswind
+518,Ukiah,California,95482,granola bars,1.0,20.39,Woodwind and Brasswind
+519,Pacoima,California,91331,toothpaste,3.0,24.99,Woodwind and Brasswind
+520,Tallahassee,Florida,32317,feminine hygiene products,2.0,525.0,
+521,High Point,North Carolina,27265,toothpaste,2.0,69.95,Amazon Business
+522,Biggs,California,95917,granola bars,6.0,19.98,Amazon Business
+523,Weatherford,Texas,76088,toothpaste,2.0,69.95,Amazon Business
+524,La Porte,Indiana,46350,masks,6.0,19.98,Amazon Business
+525,Tuolumne,California,95379,granola bars,2.0,69.95,Amazon Business
+526,Redondo Beach,California,90278,socks,1.0,6.56,AKJ Education
+527,Universal Cty,Texas,78148,gloves,1.0,21.99,Lakeshore Learning Materials
+528,Wichita,Kansas,67206,shirts,1.0,17.51,AKJ Education
+529,Trinity,North Carolina,27370,shirts,1.0,29.99,Lakeshore Learning Materials
+530,Milwaukee,Wisconsin,53224,socks,1.0,1.75,AKJ Education
+531,Norcross,Georgia,30092,toilet paper,1.0,6.56,AKJ Education
+532,Tenino,Washington,98589,toilet paper,1.0,37.36,Kaplan Early Learning Company
+533,Lanham,Maryland,20706,toilet paper,1.0,9.99,Lakeshore Learning Materials
+534,Conway,Arkansas,72032,socks,1.0,52.97,AKJ Education
+535,Byhalia,Mississippi,38611,toothpaste,1.0,251.09,Best Buy Education
+536,College Park,Georgia,30349,socks,10.0,5.83,AKJ Education
+537,Massapequa Pk,New York,11762,shirts,10.0,5.93,AKJ Education
+538,Sun Prairie,Wisconsin,53590,feminine hygiene products,5.0,7.35,AKJ Education
+539,Conroe,Texas,77306,gloves,5.0,7.29,AKJ Education
+540,Merrill,Wisconsin,54452,granola bars,10.0,5.1,AKJ Education
+541,Louisville,Kentucky,40220,feminine hygiene products,10.0,5.83,AKJ Education
+542,Coventry,Rhode Island,2827,shirts,5.0,5.1,AKJ Education
+543,Chicago,Illinois,60617,toilet paper,5.0,5.83,AKJ Education
+544,Crandall,Texas,75114,socks,10.0,5.83,AKJ Education
+545,Londonderry,New Hampshire,3053,toothpaste,10.0,6.13,AKJ Education
+546,Woodstock,Illinois,60098,gloves,5.0,6.56,AKJ Education
+547,Slaton,Texas,79364,gloves,10.0,5.1,AKJ Education
+548,Scotch Plains,New Jersey,7076,granola bars,10.0,4.96,AKJ Education
+549,Burley,Idaho,83318,feminine hygiene products,5.0,6.56,AKJ Education
+550,Lithonia,Georgia,30058,shirts,5.0,5.83,AKJ Education
+551,Lathrop,California,95330,feminine hygiene products,5.0,5.83,AKJ Education
+552,Orland,California,95963,shirts,5.0,5.84,AKJ Education
+553,Watertown,Minnesota,55388,toothpaste,5.0,7.3,AKJ Education
+554,Erie,Pennsylvania,16509,shirts,5.0,5.83,AKJ Education
+555,Sugar Land,Texas,77478,toothpaste,1.0,13.75,Nasco
+556,Lincoln,Michigan,48742,masks,1.0,1.6,Nasco
+557,Stonington,Illinois,62567,toothpaste,1.0,85.95,Nasco
+558,Roseburg,Oregon,97470,shirts,1.0,10.25,Nasco
+559,Gardiner,Montana,59030,gloves,1.0,90.25,Nasco
+560,Newport News,Virginia,23602,shirts,1.0,12.95,Nasco
+561,Dayton,Ohio,45406,feminine hygiene products,1.0,6.95,Nasco
+562,Wallingford,Connecticut,6492,toilet paper,1.0,6.75,Nasco
+563,San Francisco,California,94122,granola bars,1.0,16.15,Nasco
+564,Birmingham,Alabama,35242,toothpaste,1.0,7.4,Nasco
+565,Murfreesboro,Tennessee,37128,feminine hygiene products,1.0,49.95,Nasco
+566,Hebron,Kentucky,41048,shirts,1.0,17.6,Nasco
+567,Colchester,Connecticut,6415,granola bars,1.0,4.15,Nasco
+568,Iowa City,Iowa,52245,socks,1.0,1.6,Nasco
+569,Grand Island,New York,14072,masks,1.0,2.9,Nasco
+570,Houston,Texas,77090,gloves,1.0,24.5,Nasco
+571,Dighton,Massachusetts,2715,toilet paper,1.0,6.95,Nasco
+572,Junction City,Oregon,97448,masks,1.0,1.6,Nasco
+573,Enumclaw,Washington,98022,toilet paper,1.0,19.5,Nasco
+574,Martinsville,Indiana,46151,gloves,1.0,189.95,Nasco
+575,Honolulu,Hawaii,96815,masks,1.0,1.6,Nasco
+576,Springdale,Washington,99173,granola bars,1.0,37.98,AKJ Education
+577,Clover,South Carolina,29710,socks,1.0,22.16,AKJ Education
+578,Detroit,Michigan,48208,granola bars,1.0,14.76,AKJ Education
+579,Pls Vrds Est,California,90274,masks,1.0,20.0,AKJ Education
+580,Akron,Ohio,44312,feminine hygiene products,1.0,29.53,AKJ Education
+581,Winters,California,95694,masks,2.0,8.99,Lakeshore Learning Materials
+582,Kerman,California,93630,toilet paper,4.0,4.99,Lakeshore Learning Materials
+583,Bakersfield,California,93306,granola bars,1.0,24.99,Lakeshore Learning Materials
+584,Madison,Georgia,30650,shirts,1.0,49.99,Lakeshore Learning Materials
+585,Hegins,Pennsylvania,17938,gloves,2.0,8.99,Lakeshore Learning Materials
+586,Haughton,Louisiana,71037,masks,2.0,8.99,Lakeshore Learning Materials
+587,High Point,North Carolina,27265,toothpaste,3.0,29.99,Lakeshore Learning Materials
+588,Council Blfs,Iowa,51503,masks,1.0,39.99,Lakeshore Learning Materials
+589,Moore,Oklahoma,73160,socks,3.0,19.99,Lakeshore Learning Materials
+590,Fort Worth,Texas,76137,gloves,1.0,4.99,Lakeshore Learning Materials
+591,Winona,Texas,75792,toothpaste,6.0,7.99,Amazon Business
+592,Tulsa,Oklahoma,74119,masks,6.0,199.99,Amazon Business
+593,Ocean Springs,Mississippi,39564,masks,6.0,44.43,Amazon Business
+594,Los Gatos,California,95033,feminine hygiene products,1.0,235.02,Amazon Business
+595,Addison,Illinois,60101,granola bars,5.0,14.4,Amazon Business
+596,Springboro,Ohio,45066,socks,1.0,69.95,Amazon Business
+597,Princeton,Kentucky,42445,toilet paper,1.0,69.95,Amazon Business
+598,Bryan,Ohio,43506,gloves,6.0,13.95,Amazon Business
+599,Ft Washington,Maryland,20744,socks,1.0,69.95,Amazon Business
+600,Middletown,Ohio,45042,shirts,1.0,299.99,Best Buy Education
+601,Interior,South Dakota,57750,toilet paper,1.0,12.36,Amazon Business
+602,Sparta,Tennessee,38583,gloves,1.0,15.51,Amazon Business
+603,San Diego,California,92126,shirts,1.0,9.49,Amazon Business
+604,Rowlett,Texas,75089,feminine hygiene products,1.0,13.59,Amazon Business
+605,Detroit,Michigan,48204,gloves,1.0,14.19,Amazon Business
+606,Montgomery,Alabama,36116,gloves,1.0,12.96,Amazon Business
+607,Hanover,Indiana,47243,masks,1.0,9.79,Amazon Business
+608,Arthur,Illinois,61911,shirts,1.0,14.41,Amazon Business
+609,Bound Brook,New Jersey,8805,masks,1.0,12.2,Amazon Business
+610,Mobile,Alabama,36608,feminine hygiene products,1.0,13.15,Amazon Business
+611,Atlantic Mine,Michigan,49905,toothpaste,1.0,13.15,Amazon Business
+612,New York City,New York,10463,socks,1.0,13.15,Amazon Business
+613,College Sta,Texas,77845,granola bars,1.0,12.66,Amazon Business
+614,Carrollton,Texas,75006,toothpaste,1.0,14.82,Amazon Business
+615,Lumberton,North Carolina,28358,granola bars,1.0,13.95,Amazon Business
+616,Kansas City,Missouri,64137,masks,1.0,13.51,Amazon Business
+617,Kent,Washington,98031,shirts,1.0,25.0,Lakeshore Learning Materials
+618,,District of Columbia,20002,masks,1.0,33.0,Lakeshore Learning Materials
+619,Los Angeles,California,90016,feminine hygiene products,1.0,79.99,Lakeshore Learning Materials
+620,Alpha,Illinois,61413,masks,1.0,30.0,Lakeshore Learning Materials
+621,Wichita,Kansas,67208,masks,6.0,39.99,Amazon Business
+622,Thermopolis,Wyoming,82443,granola bars,6.0,39.99,Amazon Business
+623,Copenhagen,New York,13626,toothpaste,4.0,22.99,Amazon Business
+624,Salem,Oregon,97306,feminine hygiene products,1.0,15.49,Amazon Business
+625,Louisville,Kentucky,40219,masks,1.0,399.0,Amazon Business
+626,Mounds,Oklahoma,74047,toilet paper,10.0,12.9,Amazon Business
+627,Churchville,New York,14428,feminine hygiene products,1.0,39.99,Amazon Business
+628,Grand Haven,Michigan,49417,socks,1.0,9.99,Lakeshore Learning Materials
+629,Sudlersville,Maryland,21668,feminine hygiene products,1.0,479.0,Lakeshore Learning Materials
+630,Edmonds,Washington,98026,gloves,1.0,29.99,Lakeshore Learning Materials
+631,Eagle Rock,Virginia,24085,feminine hygiene products,2.0,14.99,Lakeshore Learning Materials
+632,Winfield,Kansas,67156,toothpaste,3.0,26.99,Lakeshore Learning Materials
+633,Jackson,Michigan,49201,masks,1.0,29.99,Lakeshore Learning Materials
+634,Grain Valley,Missouri,64029,feminine hygiene products,3.0,7.99,Lakeshore Learning Materials
+635,Lucasville,Ohio,45648,shirts,1.0,29.99,Lakeshore Learning Materials
+636,Seven Mile,Ohio,45062,feminine hygiene products,1.0,29.99,Lakeshore Learning Materials
+637,Chagrin Falls,Ohio,44022,masks,1.0,26.99,Lakeshore Learning Materials
+638,Milwaukee,Wisconsin,53221,toothpaste,2.0,19.99,Lakeshore Learning Materials
+639,Hugo,Minnesota,55038,masks,1.0,199.0,Lakeshore Learning Materials
+640,Vian,Oklahoma,74962,toothpaste,1.0,199.0,Lakeshore Learning Materials
+641,Ogema,Minnesota,56569,feminine hygiene products,2.0,10.99,Lakeshore Learning Materials
+642,Roswell,Georgia,30076,gloves,1.0,29.99,Lakeshore Learning Materials
+643,Wichita,Kansas,67213,shirts,1.0,29.99,Lakeshore Learning Materials
+644,Perrin,Texas,76486,toothpaste,5.0,7.99,Lakeshore Learning Materials
+645,Independence,Missouri,64053,masks,1.0,29.99,Lakeshore Learning Materials
+646,Rockwood,Tennessee,37854,feminine hygiene products,1.0,49.99,Lakeshore Learning Materials
+647,Hamilton,Ohio,45013,feminine hygiene products,1.0,439.39,Lakeshore Learning Materials
+648,Columbia,South Carolina,29205,feminine hygiene products,1.0,29.6,Teachers' School Supply
+649,Crescent City,California,95531,gloves,2.0,59.11,Teachers' School Supply
+650,New Orleans,Louisiana,70127,gloves,4.0,40.93,Teachers' School Supply
+651,Portland,Oregon,97203,granola bars,1.0,229.0,Lakeshore Learning Materials
+652,Shawnee Msn,Kansas,66207,socks,1.0,19.99,Lakeshore Learning Materials
+653,Ralston,Nebraska,68127,toilet paper,4.0,4.51,Amazon Business
+654,Painesville,Ohio,44077,granola bars,4.0,9.75,Amazon Business
+655,Dedham,Massachusetts,2026,masks,4.0,6.34,Amazon Business
+656,Rch Cucamonga,California,91701,gloves,4.0,6.0,Amazon Business
+657,Opa Locka,Florida,33054,gloves,4.0,3.91,Amazon Business
+658,Sweeny,Texas,77480,masks,4.0,9.97,Amazon Business
+659,Temple,Texas,76502,gloves,4.0,6.39,Amazon Business
+660,Beckley,West Virginia,25801,feminine hygiene products,1.0,10.79,Amazon Business
+661,Broken Arrow,Oklahoma,74012,granola bars,4.0,7.97,Amazon Business
+662,Owasso,Oklahoma,74055,toilet paper,4.0,9.97,Amazon Business
+663,Zionsville,Indiana,46077,feminine hygiene products,4.0,3.03,Amazon Business
+664,Los Angeles,California,90032,feminine hygiene products,10.0,5.83,AKJ Education
+665,Kenosha,Wisconsin,53144,toothpaste,1.0,5.83,AKJ Education
+666,N Highlands,California,95660,toilet paper,1.0,99.7,AKJ Education
+667,Woodbridge,Virginia,22193,feminine hygiene products,5.0,5.1,AKJ Education
+668,New Orleans,Louisiana,70112,toothpaste,10.0,5.83,AKJ Education
+669,Brook Park,Ohio,44142,masks,40.0,10.75,Amazon Business
+670,Ukiah,Oregon,97880,toothpaste,,,
+671,Bullhead City,Arizona,86429,toothpaste,27.0,9.29,Staples Advantage
+672,Lebanon,Missouri,65536,shirts,1.0,13.49,Amazon Business
+673,Faucett,Missouri,64448,toothpaste,1.0,7.59,Amazon Business
+674,Ogden,Utah,84404,shirts,1.0,8.42,Amazon Business
+675,Richmond,California,94801,shirts,1.0,7.1,Amazon Business
+676,Conroe,Texas,77301,socks,1.0,14.68,Amazon Business
+677,Tampa,Florida,33617,socks,2.0,14.72,Blick Art Materials
+678,Albuquerque,New Mexico,87106,granola bars,1.0,22.86,Best Buy Education
+679,Boise,Idaho,83705,toothpaste,1.0,16.35,Amazon Business
+680,Colorado Spgs,Colorado,80911,granola bars,1.0,33.96,Kaplan Early Learning Company
+681,Jurupa Valley,California,92509,masks,1.0,34.95,Amazon Business
+682,Yulee,Florida,32097,shirts,1.0,6.56,Amazon Business
+683,Tacoma,Washington,98445,masks,2.0,28.04,Quill.com
+684,Haslet,Texas,76052,shirts,1.0,299.99,Best Buy Education
+685,Janesville,Wisconsin,53545,feminine hygiene products,1.0,8.29,Amazon Business
+686,Windsor,California,95492,toothpaste,1.0,24.2,Amazon Business
+687,Houston,Texas,77072,gloves,1.0,9.98,Amazon Business
+688,Westmoreland,Tennessee,37186,masks,1.0,10.95,Blick Art Materials
+689,San Jose,California,95130,toothpaste,1.0,0.0,Blick Art Materials
+690,Chula Vista,California,91913,feminine hygiene products,1.0,27.5,Blick Art Materials
+691,Galena Park,Texas,77547,feminine hygiene products,1.0,25.95,Amazon Business
+692,Spotsylvania,Virginia,22553,granola bars,2.0,18.14,Amazon Business
+693,Walnut Creek,California,94598,masks,3.0,1.91,Kaplan Early Learning Company
+694,Louisville,Kentucky,40207,granola bars,1.0,22.53,Blick Art Materials
+695,Ontario,California,91762,socks,2.0,8.49,Blick Art Materials
+696,Humboldt,Illinois,61931,toothpaste,1.0,11.99,Amazon Business
+697,Griffin,Georgia,30224,toilet paper,1.0,17.25,Amazon Business
+698,Dallas,Texas,75208,feminine hygiene products,1.0,7.44,Amazon Business
+699,San Carlos,California,94070,shirts,1.0,25.65,Amazon Business
+700,Acworth,Georgia,30102,shirts,1.0,6.99,Amazon Business
+701,Cove,Arkansas,71937,gloves,1.0,9.31,Amazon Business
+702,New Iberia,Louisiana,70560,masks,2.0,8.49,Blick Art Materials
+703,Corp Christi,Texas,78414,toilet paper,2.0,24.45,Blick Art Materials
+704,Bozeman,Montana,59715,feminine hygiene products,1.0,4.5,Blick Art Materials
+705,Greenfield,Indiana,46140,socks,1.0,12.4,Amazon Business
+706,Columbus,Ohio,43227,gloves,1.0,99.99,Best Buy Education
+707,Appleton,Wisconsin,54913,socks,1.0,429.99,Best Buy Education
+708,Ringgold,Louisiana,71068,granola bars,1.0,105.44,School Specialty
+709,Lancaster,California,93535,shirts,1.0,30.39,School Specialty
+710,Graceville,Florida,32440,gloves,1.0,18.04,School Specialty
+711,Union City,Indiana,47390,granola bars,2.0,17.09,School Specialty
+712,Oakland,California,94621,socks,3.0,32.29,School Specialty
+713,Flushing,Michigan,48433,feminine hygiene products,2.0,18.99,School Specialty
+714,Park Forest,Illinois,60466,feminine hygiene products,1.0,37.04,School Specialty
+715,Pensacola,Florida,32526,shirts,1.0,99.99,Amazon Business
+716,Cleveland,Texas,77327,gloves,1.0,47.99,Amazon Business
+717,Hood River,Oregon,97031,toilet paper,3.0,111.98,Amazon Business
+718,Saint Louis,Missouri,63106,gloves,1.0,1734.39,Woodwind and Brasswind
+719,Westminster,California,92683,granola bars,1.0,237.0,Woodwind and Brasswind
+720,Hinsdale,Massachusetts,1235,gloves,1.0,4.95,Amazon Business
+721,Zephyr Cove,Nevada,89448,masks,1.0,14.83,Amazon Business
+722,Fort Myers,Florida,33967,socks,1.0,4.95,Amazon Business
+723,Round Lake,Illinois,60073,gloves,1.0,10.7,Amazon Business
+724,Fontana,California,92336,toothpaste,1.0,4.08,Amazon Business
+725,Silverdale,Washington,98383,masks,1.0,8.96,Amazon Business
+726,Willard,Ohio,44890,granola bars,2.0,20.99,
+727,Houston,Texas,77079,shirts,1.0,6.53,AKJ Education
+728,Milford,Ohio,45150,feminine hygiene products,6.0,7.99,
+729,San Antonio,Texas,78218,toilet paper,1.0,11.07,Amazon Business
+730,Dearborn Hts,Michigan,48125,feminine hygiene products,1.0,14.86,Amazon Business
+731,Aurora,Colorado,80018,toothpaste,1.0,20.99,
+732,Marshalltown,Iowa,50158,granola bars,5.0,29.99,Amazon Business
+733,New Boston,Texas,75570,socks,5.0,59.99,Amazon Business
+734,Marshfield,Wisconsin,54449,toilet paper,4.0,24.99,Amazon Business
+735,Omaha,Nebraska,68112,shirts,1.0,9.51,Amazon Business
+736,Mcalester,Oklahoma,74501,granola bars,6.0,8.99,Amazon Business
+737,New Orleans,Louisiana,70129,toilet paper,6.0,10.74,Amazon Business
+738,Winchester,Kentucky,40391,granola bars,6.0,11.06,Amazon Business
+739,Salmon,Idaho,83467,socks,2.0,7.7,Amazon Business
+740,North Hills,California,91405,feminine hygiene products,30.0,10.53,Staples Advantage
+741,Southlake,Texas,76092,granola bars,4.0,249.98,Amazon Business
+742,Redlands,California,92374,toothpaste,4.0,176.99,Best Buy Education
+743,Milwaukee,Wisconsin,53212,masks,1.0,49.99,Amazon Business
+744,Pima,Arizona,85543,gloves,1.0,131.0,Amazon Business
+745,Portland,Oregon,97206,toothpaste,1.0,39.99,Amazon Business
+746,Minneapolis,Minnesota,55413,shirts,1.0,99.95,Amazon Business
+747,Guyton,Georgia,31312,toothpaste,1.0,299.99,Amazon Business
+748,Denver,Colorado,80209,gloves,1.0,68.07,Amazon Business
+749,Leesburg,Georgia,31763,masks,2.0,6.99,Amazon Business
+750,Howard City,Michigan,49329,masks,2.0,16.19,Amazon Business
+751,Chicago,Illinois,60632,masks,1.0,5.1,AKJ Education
+752,Madisonville,Tennessee,37354,shirts,1.0,2.91,AKJ Education
+753,Chicago,Illinois,60623,shirts,1.0,14.59,AKJ Education
+754,Meeker,Oklahoma,74855,granola bars,1.0,2.91,AKJ Education
+755,Chicago,Illinois,60617,gloves,1.0,2.91,AKJ Education
+756,Richmond,Indiana,47374,shirts,1.0,3.64,AKJ Education
+757,Puyallup,Washington,98372,socks,1.0,4.38,AKJ Education
+758,Madison,Indiana,47250,masks,1.0,13.13,AKJ Education
+759,Ann Arbor,Michigan,48105,granola bars,1.0,5.1,AKJ Education
+760,,District of Columbia,20008,shirts,1.0,2.91,AKJ Education
+761,Roanoke,Illinois,61561,gloves,1.0,2.91,AKJ Education
+762,Citrus Spgs,Florida,34434,toilet paper,1.0,2.91,AKJ Education
+763,Harrisville,Pennsylvania,16038,feminine hygiene products,1.0,5.1,AKJ Education
+764,Dover,New Hampshire,3820,gloves,1.0,2.91,AKJ Education
+765,Statesville,North Carolina,28625,toothpaste,1.0,5.1,AKJ Education
+766,Atlanta,Georgia,30315,socks,1.0,2.91,AKJ Education
+767,Murfreesboro,Tennessee,37129,granola bars,1.0,4.75,AKJ Education
+768,Marietta,Georgia,30067,shirts,1.0,2.91,AKJ Education
+769,Refugio,Texas,78377,shirts,1.0,4.38,AKJ Education
+770,Ramona,California,92065,toothpaste,1.0,2.91,AKJ Education
+771,San Diego,California,92131,shirts,1.0,5.11,AKJ Education
+772,Carson,California,90746,feminine hygiene products,1.0,2.91,AKJ Education
+773,Chattanooga,Tennessee,37407,gloves,1.0,2.91,AKJ Education
+774,Owensboro,Kentucky,42301,toothpaste,1.0,4.75,AKJ Education
+775,Bradenton,Florida,34211,masks,1.0,2.91,AKJ Education
+776,Knoxville,Tennessee,37934,masks,1.0,5.8,AKJ Education
+777,Daly City,California,94014,toothpaste,1.0,5.8,AKJ Education
+778,Scottsville,Kentucky,42164,masks,1.0,3.61,AKJ Education
+779,Gulfport,Mississippi,39501,toothpaste,1.0,5.83,AKJ Education
+780,Richfield,Utah,84701,masks,1.0,2.91,AKJ Education
+781,Peoria,Arizona,85382,granola bars,1.0,2.91,AKJ Education
+782,Attleboro,Massachusetts,2703,toothpaste,1.0,2.91,AKJ Education
+783,El Dorado,Kansas,67042,granola bars,50.0,13.19,Staples Advantage
+784,Avondale,Arizona,85323,socks,1.0,5.9,Staples Advantage
+785,Cheswick,Pennsylvania,15024,shirts,1.0,36.43,Staples Advantage
+786,Los Angeles,California,90042,shirts,1.0,58.85,Amazon Business
+787,Locust Grove,Oklahoma,74352,shirts,1.0,309.99,Amazon Business
+788,Abbeville,South Carolina,29620,socks,2.0,82.99,Amazon Business
+789,Flint,Michigan,48504,feminine hygiene products,1.0,20.62,Amazon Business
+790,Bristow,Oklahoma,74010,toothpaste,1.0,470.08,Best Buy Education
+791,Hawthorne,California,90250,toilet paper,2.0,139.99,Best Buy Education
+792,Sioux Falls,South Dakota,57103,granola bars,2.0,143.27,Best Buy Education
+793,Sparta,Tennessee,38583,granola bars,3.0,152.93,Best Buy Education
+794,Portland,Oregon,97266,gloves,2.0,143.29,Best Buy Education
+795,Cincinnati,Ohio,45231,socks,1.0,79.99,Lakeshore Learning Materials
+796,Newbury,Ohio,44065,masks,1.0,219.0,Lakeshore Learning Materials
+797,Shreveport,Louisiana,71106,socks,8.0,1.27,Quill.com
+798,Greenwood Vlg,Colorado,80121,socks,6.0,1.69,Quill.com
+799,Clarksville,Tennessee,37043,granola bars,2.0,2.47,Quill.com
+800,Black Creek,North Carolina,27813,gloves,1.0,50.99,Quill.com
+801,Georgiana,Alabama,36033,masks,1.0,6.37,Quill.com
+802,Houston,Texas,77089,gloves,1.0,35.69,Quill.com
+803,Buffalo,New York,14201,gloves,1.0,6.37,Quill.com
+804,Granada Hills,California,91344,toothpaste,2.0,59.99,Staples Advantage
+805,Henderson,North Carolina,27537,socks,1.0,59.75,Quill.com
+806,Los Angeles,California,90032,granola bars,1.0,9.34,Quill.com
+807,New York City,New York,11236,toilet paper,3.0,24.99,Staples Advantage
+808,Grand Island,Nebraska,68801,toothpaste,1.0,31.99,Staples Advantage
+809,Villa Park,California,92861,toilet paper,2.0,14.19,Quill.com
+810,Joint Base Lewis-Mcchord,Washington,98433,socks,1.0,42.86,AKJ Education
+811,Urbandale,Iowa,50322,granola bars,1.0,33.76,AKJ Education
+812,St Dmng Pblo,New Mexico,87052,granola bars,1.0,11.69,AKJ Education
+813,Ellisville,Mississippi,39437,granola bars,1.0,11.69,AKJ Education
+814,Sturgeon,Missouri,65284,shirts,1.0,12.34,AKJ Education
+815,Federal Way,Washington,98023,granola bars,1.0,10.39,AKJ Education
+816,Memphis,Tennessee,38111,toothpaste,1.0,41.57,AKJ Education
+817,Saint Louis,Missouri,63108,toilet paper,1.0,14.25,AKJ Education
+818,Houma,Louisiana,70363,masks,1.0,16.15,AKJ Education
+819,Mont Belvieu,Texas,77580,toothpaste,1.0,11.04,AKJ Education
+820,Columbus,Ohio,43235,gloves,1.0,19.49,AKJ Education
+821,Puyallup,Washington,98375,gloves,1.0,20.77,AKJ Education
+822,Hendersonville,North Carolina,28792,toothpaste,1.0,18.82,AKJ Education
+823,Coachella,California,92236,feminine hygiene products,1.0,11.04,AKJ Education
+824,Fort Worth,Texas,76115,shirts,1.0,18.82,AKJ Education
+825,Baton Rouge,Louisiana,70805,feminine hygiene products,1.0,13.13,AKJ Education
+826,Lexington,Kentucky,40509,shirts,1.0,38.32,AKJ Education
+827,Scottsdale,Arizona,85250,socks,1.0,12.32,AKJ Education
+828,Laconia,New Hampshire,3246,feminine hygiene products,20.0,9.29,Amazon Business
+829,Cary,North Carolina,27513,shirts,37.0,15.9,Amazon Business
+830,Philadelphia,Pennsylvania,19138,toilet paper,20.0,10.75,Amazon Business
+831,Gaffney,South Carolina,29340,toilet paper,20.0,13.21,Amazon Business
+832,Racine,Wisconsin,53402,feminine hygiene products,20.0,13.76,Amazon Business
+833,Colorado Spgs,Colorado,80920,masks,37.0,10.72,Amazon Business
+834,Lakeland,Michigan,48143,gloves,9.0,8.93,Amazon Business
+835,New York City,New York,11432,toilet paper,4.0,12.99,Amazon Business
+836,Burnsville,Minnesota,55337,granola bars,9.0,4.75,Amazon Business
+837,Parkersburg,West Virginia,26101,granola bars,4.0,4.75,Amazon Business
+838,Emmett,Idaho,83617,toothpaste,9.0,14.99,Amazon Business
+839,Chandler,Arizona,85224,gloves,9.0,26.16,Amazon Business
+840,Chuckey,Tennessee,37641,gloves,4.0,7.99,Amazon Business
+841,Norcross,Georgia,30071,toothpaste,6.0,9.99,Amazon Business
+842,Evans,Colorado,80620,socks,1.0,30.37,Carolina Biological Supply Company
+843,Taos,New Mexico,87571,shirts,1.0,30.37,Carolina Biological Supply Company
+844,Tifton,Georgia,31794,toilet paper,1.0,32.65,School Specialty
+845,Rochester,New York,14608,masks,1.0,6.97,Carolina Biological Supply Company
+846,New Holland,Pennsylvania,17557,toilet paper,1.0,6.97,Carolina Biological Supply Company
+847,Montgomery,New York,12549,feminine hygiene products,1.0,10.28,Frey Scientific
+848,Torrance,California,90503,gloves,1.0,39.37,Carolina Biological Supply Company
+849,Elkton,Virginia,22827,socks,1.0,30.37,Carolina Biological Supply Company
+850,Mission Viejo,California,92691,granola bars,1.0,30.37,Carolina Biological Supply Company
+851,Harkers Is,North Carolina,28531,socks,1.0,6.97,Carolina Biological Supply Company
+852,The Woodlands,Texas,77381,toilet paper,2.0,9.95,Amazon Business
+853,Monroe,Washington,98272,socks,15.0,32.92,Amazon Business
+854,Pleasant Grv,Utah,84062,shirts,2.0,32.58,Staples Advantage
+855,Midland,Texas,79706,socks,1.0,27.49,Staples Advantage
+856,Manchester,Missouri,63011,gloves,1.0,19.49,Staples Advantage
+857,Holton,Michigan,49425,toilet paper,1.0,2.81,Staples Advantage
+858,Maxwell,New Mexico,87728,socks,1.0,4.64,Staples Advantage
+859,Athens,Ohio,45701,feminine hygiene products,1.0,8.04,Staples Advantage
+860,Bethesda,Maryland,20817,toilet paper,1.0,16.49,Staples Advantage
+861,Taylor,Michigan,48180,toilet paper,1.0,10.49,Staples Advantage
+862,Meridian,Idaho,83646,gloves,1.0,15.49,Staples Advantage
+863,Newbury Park,California,91320,gloves,2.0,20.99,Staples Advantage
+864,Melbourne,Florida,32935,shirts,1.0,1979.01,CDW-G
+865,Castroville,California,95012,gloves,1.0,279.0,Lakeshore Learning Materials
+866,Edmond,Oklahoma,73025,shirts,1.0,39.99,Lakeshore Learning Materials
+867,Northridge,California,91325,toilet paper,1.0,99.5,Lakeshore Learning Materials
+868,Tuscaloosa,Alabama,35401,toothpaste,1.0,85.0,Lakeshore Learning Materials
+869,Lone Tree,Colorado,80124,toilet paper,1.0,99.5,Lakeshore Learning Materials
+870,New York City,New York,11691,socks,1.0,99.5,Lakeshore Learning Materials
+871,Aurora,Illinois,60506,masks,1.0,83.5,Lakeshore Learning Materials
+872,Eugene,Oregon,97403,socks,3.0,4.27,ABC School Supply
+873,Brandywine,Maryland,20613,toothpaste,1.0,18.99,ABC School Supply
+874,Bay City,Michigan,48708,feminine hygiene products,2.0,18.99,ABC School Supply
+875,Jackson,Mississippi,39202,gloves,1.0,21.37,ABC School Supply
+876,Queensbury,New York,12804,granola bars,7.0,6.41,ABC School Supply
+877,Selma,Alabama,36703,masks,1.0,19.26,ABC School Supply
+878,Dallas,Georgia,30132,masks,8.0,136.47,School Specialty
+879,Moody,Alabama,35004,feminine hygiene products,1.0,14.98,Amazon Business
+880,Stockton,California,95205,feminine hygiene products,1.0,9.99,Amazon Business
+881,Hawesville,Kentucky,42348,granola bars,1.0,16.19,Amazon Business
+882,Grand Haven,Michigan,49417,masks,2.0,6.65,Amazon Business
+883,Mishawaka,Indiana,46545,toothpaste,1.0,11.99,Lakeshore Learning Materials
+884,Gaithersburg,Maryland,20878,gloves,1.0,16.19,Amazon Business
+885,San Antonio,Texas,78204,shirts,1.0,35.99,Lakeshore Learning Materials
+886,Homer,Alaska,99603,gloves,1.0,14.86,Amazon Business
+887,Mesa,Arizona,85205,socks,8.0,4.79,Lakeshore Learning Materials
+888,Evans,Georgia,30809,masks,1.0,11.99,Lakeshore Learning Materials
+889,Barron,Wisconsin,54812,socks,1.0,7.84,Amazon Business
+890,Dinuba,California,93618,feminine hygiene products,1.0,12.9,Amazon Business
+891,Chicago,Illinois,60644,gloves,1.0,114.95,Amazon Business
+892,Logan,Utah,84321,toilet paper,15.0,8.99,Amazon Business
+893,Mullins,South Carolina,29574,granola bars,1.0,129.0,Amazon Business
+894,Livermore,California,94550,socks,6.0,247.49,CDW-G
+895,Santa Rosa,California,95407,shirts,1.0,80.67,Amazon Business
+896,Tallahassee,Florida,32309,toilet paper,15.0,11.01,Nasco
+897,Overland Park,Kansas,66224,shirts,15.0,6.24,Best Buy Education
+898,Camden,New Jersey,8105,shirts,1.0,36.95,Amazon Business
+899,Detroit,Michigan,48234,shirts,20.0,3.0,Blick Art Materials
+900,Forrest City,Arkansas,72335,socks,1.0,0.0,Blick Art Materials
+901,New Boston,Michigan,48164,shirts,1.0,33.88,Amazon Business
+902,Las Vegas,Nevada,89147,granola bars,1.0,34.81,Blick Art Materials
+903,Tarpon Spgs,Florida,34689,shirts,1.0,25.34,Amazon Business
+904,San Jose,California,95120,feminine hygiene products,1.0,723.05,Amazon Business
+905,Angleton,Texas,77515,toothpaste,1.0,151.03,Amazon Business
+906,Detroit,Michigan,48219,feminine hygiene products,4.0,399.99,Best Buy Education
+907,Loudonville,Ohio,44842,masks,1.0,39.99,Lakeshore Learning Materials
+908,Charlevoix,Michigan,49720,socks,1.0,12.99,Amazon Business
+909,Madison Hts,Michigan,48071,socks,1.0,19.69,Amazon Business
+910,Wasilla,Alaska,99654,toothpaste,1.0,49.99,Lakeshore Learning Materials
+911,Philadelphia,Pennsylvania,19141,shirts,1.0,24.99,Lakeshore Learning Materials
+912,Gilbert,Arizona,85298,feminine hygiene products,1.0,13.69,Amazon Business
+913,Goldsboro,North Carolina,27534,feminine hygiene products,1.0,39.99,Lakeshore Learning Materials
+914,Fenton,Michigan,48430,gloves,1.0,19.42,Amazon Business
+915,Hilliard,Ohio,43026,socks,1.0,29.99,Lakeshore Learning Materials
+916,San Juan,Texas,78589,socks,1.0,15.66,Amazon Business
+917,Evansville,Indiana,47714,masks,1.0,14.16,Amazon Business
+918,Hurley,Virginia,24620,toothpaste,1.0,15.99,Amazon Business
+919,New Glarus,Wisconsin,53574,toothpaste,35.0,1.95,Staples Advantage
+920,New Albany,Mississippi,38652,masks,2.0,7.99,Staples Advantage
+921,St Clr Shores,Michigan,48082,toilet paper,10.0,1.7,Staples Advantage
+922,New York City,New York,11694,shirts,2.0,5.59,Staples Advantage
+923,Winfield,Tennessee,37892,shirts,10.0,1.32,Staples Advantage
+924,Roxbury,Massachusetts,2119,shirts,2.0,7.99,Staples Advantage
+925,Winnsboro,Texas,75494,gloves,2.0,21.87,Staples Advantage
+926,Nampa,Idaho,83686,toilet paper,4.0,8.89,Staples Advantage
+927,Asheboro,North Carolina,27204,feminine hygiene products,1.0,199.99,Staples Advantage
+928,Jemison,Alabama,35085,toothpaste,1.0,5.69,Staples Advantage
+929,Camarillo,California,93010,toilet paper,5.0,31.25,Staples Advantage
+930,Ada,Oklahoma,74820,shirts,1.0,4.0,Staples Advantage
+931,Royal Oak,Michigan,48073,toilet paper,1.0,9.09,Staples Advantage
+932,Santa Rosa,California,95405,shirts,1.0,55.19,Staples Advantage
+933,Lubbock,Texas,79403,toilet paper,4.0,59.99,DICK'S Sporting Goods
+934,Vanceboro,North Carolina,28586,toilet paper,3.0,19.99,DICK'S Sporting Goods
+935,Alexandria,Virginia,22315,toothpaste,1.0,169.0,Lakeshore Learning Materials
+936,Jacksonville,Florida,32209,gloves,1.0,39.99,Lakeshore Learning Materials
+937,Waterville,Ohio,43566,shirts,1.0,49.99,Lakeshore Learning Materials
+938,Canton,Ohio,44708,feminine hygiene products,1.0,49.99,Lakeshore Learning Materials
+939,Paradise Vly,Arizona,85253,gloves,1.0,49.99,Amazon Business
+940,Houston,Texas,77084,toilet paper,1.0,9.6,Amazon Business
+941,Erath,Louisiana,70533,gloves,1.0,20.12,Amazon Business
+942,Fremont,California,94536,toilet paper,1.0,42.14,Amazon Business
+943,Round Rock,Texas,78665,toothpaste,1.0,202.02,Amazon Business
+944,Richmond,Virginia,23220,masks,5.0,15.99,Lakeshore Learning Materials
+945,Kinnelon,New Jersey,7405,toilet paper,1.0,24.99,Lakeshore Learning Materials
+946,Los Angeles,California,90036,masks,1.0,43.5,Lakeshore Learning Materials
+947,Lorain,Ohio,44052,toothpaste,1.0,44.5,Lakeshore Learning Materials
+948,Grandview,Washington,98930,toothpaste,1.0,42.5,Lakeshore Learning Materials
+949,Jackson,New Jersey,8527,toilet paper,2.0,18.99,Lakeshore Learning Materials
+950,Chicago,Illinois,60613,feminine hygiene products,2.0,59.99,Lakeshore Learning Materials
+951,Eastpointe,Michigan,48021,granola bars,4.0,29.99,Lakeshore Learning Materials
+952,Greensburg,Indiana,47240,shirts,1.0,479.0,Lakeshore Learning Materials
+953,Pecos,Texas,79772,gloves,2.0,39.99,Lakeshore Learning Materials
+954,Linwood,Michigan,48634,toilet paper,1.0,34.99,Lakeshore Learning Materials
+955,Amarillo,Texas,79108,toilet paper,1.0,39.99,Lakeshore Learning Materials
+956,Chula Vista,California,91911,granola bars,1.0,199.0,Lakeshore Learning Materials
+957,King City,California,93930,feminine hygiene products,10.0,169.0,Best Buy Education
+958,Fayetteville,North Carolina,28312,feminine hygiene products,1.0,8.62,Amazon Business
+959,Mattapan,Massachusetts,2126,masks,1.0,10.31,Amazon Business
+960,Blk River Fls,Wisconsin,54615,granola bars,1.0,8.25,Amazon Business
+961,Garland,Texas,75040,shirts,1.0,12.99,Amazon Business
+962,Ocala,Florida,34475,toilet paper,1.0,11.52,Amazon Business
+963,Butler,Missouri,64730,socks,1.0,15.16,Amazon Business
+964,Springfield,New Jersey,7081,toilet paper,1.0,11.38,Amazon Business
+965,Fitchburg,Massachusetts,1420,socks,1.0,13.43,Amazon Business
+966,Wagoner,Oklahoma,74467,toilet paper,1.0,16.96,Amazon Business
+967,Ringgold,Georgia,30736,gloves,1.0,14.5,Amazon Business
+968,Columbus,Georgia,31909,masks,1.0,13.73,Amazon Business
+969,Van Hornesvle,New York,13475,shirts,1.0,13.4,Amazon Business
+970,La Habra,California,90631,toothpaste,1.0,16.83,Amazon Business
+971,Spring Hill,Florida,34609,masks,1.0,9.78,Amazon Business
+972,Summersville,West Virginia,26651,granola bars,2.0,39.99,Lakeshore Learning Materials
+973,Grand Rapids,Michigan,49507,masks,8.0,3.99,Lakeshore Learning Materials
+974,Othello,Washington,99344,toothpaste,1.0,34.99,Lakeshore Learning Materials
+975,Longmont,Colorado,80503,granola bars,1.0,39.99,Lakeshore Learning Materials
+976,Fairburn,Georgia,30213,masks,1.0,44.99,
+977,Waterloo,Iowa,50701,socks,2.0,8.99,
+978,Peyton,Colorado,80831,toothpaste,7.0,29.97,
+979,Douglasville,Georgia,30134,socks,1.0,19.99,
+980,Pinckney,Michigan,48169,masks,1.0,37.99,
+981,,District of Columbia,20032,feminine hygiene products,1.0,19.49,
+982,Farmingtn Hls,Michigan,48334,granola bars,1.0,24.99,
+983,Tavares,Florida,32778,masks,1.0,29.99,
+984,Jacksonville,Florida,32257,toothpaste,1.0,24.64,Quill.com
+985,Missoula,Montana,59801,toilet paper,2.0,8.49,Quill.com
+986,Orlando,Florida,32833,masks,1.0,8.99,Quill.com
+987,Louisville,Kentucky,40214,feminine hygiene products,1.0,23.37,Quill.com
+988,Fairfield,California,94533,masks,1.0,16.99,Quill.com
+989,Reedsburg,Wisconsin,53959,toothpaste,1.0,16.91,Quill.com
+990,Mcfarland,California,93250,socks,1.0,29.99,Lakeshore Learning Materials
+991,Littleton,Colorado,80128,socks,1.0,14.99,Lakeshore Learning Materials
+992,Huntingtn Bch,California,92647,toothpaste,1.0,67.99,Lakeshore Learning Materials
+993,Alton,Iowa,51003,masks,1.0,49.99,Lakeshore Learning Materials
+994,Ottawa,Illinois,61350,socks,1.0,49.99,Lakeshore Learning Materials
+995,Vail,Arizona,85641,shirts,1.0,14.99,Lakeshore Learning Materials
+996,Hattiesburg,Mississippi,39401,feminine hygiene products,1.0,34.99,Lakeshore Learning Materials
+997,Comfrey,Minnesota,56019,socks,1.0,9.99,Lakeshore Learning Materials
+998,Gladstone,Missouri,64118,toothpaste,1.0,34.99,Lakeshore Learning Materials
+999,Oxnard,California,93036,masks,3.0,10.99,Lakeshore Learning Materials
+1000,Park Forest,Illinois,60466,gloves,4.0,56.58,Amazon Business
+1001,Cobleskill,New York,12043,shirts,4.0,7.09,Amazon Business
+1002,Maryland Hts,Missouri,63043,toilet paper,4.0,7.71,Amazon Business
+1003,Chicago,Illinois,60610,shirts,4.0,425.09,Best Buy Education
+1004,Houston,Texas,77055,shirts,1.0,454.71,Kaplan Early Learning Company
+1005,Woodstock,Alabama,35188,masks,2.0,399.99,Best Buy Education
+1006,Summerdale,Alabama,36580,gloves,2.0,39.99,Best Buy Education
+1007,Richmond,Virginia,23235,toilet paper,6.0,7.99,Quill.com
+1008,Albany,New York,12203,feminine hygiene products,3.0,6.79,Quill.com
+1009,Glen Allen,Virginia,23060,socks,2.0,17.84,Quill.com
+1010,Saint Paul,Minnesota,55119,toothpaste,1.0,2.91,AKJ Education
+1011,Cranford,New Jersey,7016,feminine hygiene products,1.0,2.91,AKJ Education
+1012,Saint Paul,Minnesota,55106,shirts,1.0,2.91,AKJ Education
+1013,Los Angeles,California,90066,shirts,1.0,2.91,AKJ Education
+1014,Williamsburg,Kentucky,40769,socks,1.0,2.91,AKJ Education
+1015,Cheshire,Connecticut,6410,toothpaste,1.0,2.91,AKJ Education
+1016,Chickasha,Oklahoma,73018,masks,1.0,2.91,AKJ Education
+1017,Poynette,Wisconsin,53955,toilet paper,1.0,2.91,AKJ Education
+1018,Salinas,California,93906,shirts,1.0,2.91,AKJ Education
+1019,Escondido,California,92026,masks,1.0,2.91,AKJ Education
+1020,Salem,Oregon,97301,toothpaste,1.0,2.91,AKJ Education
+1021,Redlands,California,92373,feminine hygiene products,1.0,2.91,AKJ Education
+1022,Flagstaff,Arizona,86004,toothpaste,1.0,2.91,AKJ Education
+1023,Fort Riley,Kansas,66442,feminine hygiene products,1.0,2.91,AKJ Education
