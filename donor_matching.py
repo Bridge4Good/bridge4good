@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 from sklearn import preprocessing
 from sklearn.feature_selection import RFE
@@ -83,7 +85,7 @@ def match_percent(proba):
 def match_donor(zipcode, donation):
     new_data = [[zipcode, donation]]
 
-    # Predicting probability that the new_data will have value of 0 ; and probability that it will ahve a value of 1
+    # Predicting probability that the new_data will have value of 0 ; and probability that it will have a value of 1
     # Splitting arrays into 2 sections
     # Getting final % match data
     shelter1 = match_percent(np.split(shelter1_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
@@ -95,6 +97,5 @@ def match_donor(zipcode, donation):
                 'Shelter 2': shelter2, 
                 'Shelter 3': shelter3}
     final_shelter = max(shelters, key=shelters.get)
-    
 
     return 'Thank you! Based on your input, we recommend that you donate to ' + final_shelter
