@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h1> Bridge4Good Tech Demo </h1>
+		<p>
+            We are running logistic regression analysis in the backend to 
+			generate probabilistic insights in order to match donors with 
+			homeless shelters based on their location and the amount they are donating.
+		</p>
+		<p> Time to match you with a shelter! </p>
+		
+		<form method='POST'>
+			<div class='form'>
+				<input type='number' name='zipcode' placeholder='First 3 digits of zipcode'>
+				<br>
+				<input type='number' name='donation' placeholder='Donation Amount'>
+				<br>
+				<button type="submit">Find Shelter!</button>
+			</div>
+		</form>
+		
+		<div class='messages'>
+			{% if message %}
+			<p>{{message}}</p>
+			{% endif %}
+		</div>
+		
+	</body>
+</html>
