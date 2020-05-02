@@ -75,9 +75,12 @@ def shelter3_logreg():
 # Get "___% match" from probability values
 def match_percent(proba):
     percent = proba[0] * 100
-    match_percent = str(percent) + '% match'
+    percent_per_outcome = str(percent).lstrip('[').rstrip(']').split(' ')
+    percent_per_outcome = list(filter(None, percent_per_outcome))
+    
+    match =  round(float(percent_per_outcome[1]), 2)
 
-    return match_percent
+    return str(match) + '% match'
 
 # Run logreg on new user input; print 3 probabilities; match donor with the shelter with highest % match 
 def match_donor(zipcode, donation):
@@ -86,15 +89,18 @@ def match_donor(zipcode, donation):
     # Predicting probability that the new_data will have value of 0 ; and probability that it will ahve a value of 1
     # Splitting arrays into 2 sections
     # Getting final % match data
-    shelter1 = match_percent(np.split(shelter1_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
-    shelter2 = match_percent(np.split(shelter2_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
-    shelter3 = match_percent(np.split(shelter3_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
+    shelter1 = match_percent(shelter1_logreg().predict_proba(new_data))
+    shelter2 = match_percent(shelter2_logreg().predict_proba(new_data))
+    shelter3 = match_percent(shelter3_logreg().predict_proba(new_data))
 
-    # storing shelters in a dictionary to find the key of the highest % match
-    shelters = {'Shelter 1': shelter1, 
-                'Shelter 2': shelter2, 
-                'Shelter 3': shelter3}
+    # storing shelters in a dictionary to find the shelter of the highest % match
+    shelters = {'Salvation Army': shelter1, 
+                'Covenant House': shelter2, 
+                'New York City Rescue Mission': shelter3}
+
     final_shelter = max(shelters, key=shelters.get)
+    final_shelter_match = shelters[final_shelter]
     
+    message = 'Based on your input, we recommend that you donate to the %s shelter for which you are a %s!' % (final_shelter, final_shelter_match)
 
-    return 'Thank you! Based on your input, we recommend that you donate to ' + final_shelter
+    return message
