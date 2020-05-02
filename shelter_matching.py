@@ -1,22 +1,18 @@
+# ## This code below, will help identify who the top potential donors are for any given shelter. This can be used by the shelters for targetting email campaigns
+
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
-import matplotlib.pyplot as plt
-
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
-import seaborn as sns
 from sklearn.model_selection import GridSearchCV
-
-sns.set(style="white")
-sns.set(style="whitegrid", color_codes=True)
 
 # ## Shelter 1 Model - Train and test with shelter1.csv data
 
 ### Loading the data here (reusing the code)
-shelter1data = pd.read_csv('.\shelter1.csv',header=0)
+shelter1data = pd.read_csv('.\donors.csv',header=0)
 shelter1data_RAW = shelter1data.copy()
 shelter1data = shelter1data.dropna()
 
@@ -27,17 +23,15 @@ shelter1data = pd.get_dummies(shelter1data, columns = ["Donor City", "Donor Stat
 
 
 ### Removing Zip as this is redundant information, unless you are capturing the distance between the shelter and the customer using this. 
-#### (Add that variable if you can, will be a much better for your storyline)
 shelter1data = shelter1data.iloc[:,2:]
-
 
 shelter1data.shape
 
 # Now you have 90 rows and 118 columns. Get the final X & y out now.
 print(shelter1data.head())
 
-x1 = shelter1data.drop(["Shelter 1 "],axis = 1) ## Keeping all except the Y feature
-y1 = shelter1data.loc[:,["Shelter 1 "]] ## Keeing on the Y feature
+x1 = shelter1data.drop(["Shelter 1"],axis = 1) ## Keeping all except the Y feature
+y1 = shelter1data.loc[:,["Shelter 1"]] ## Keeing on the Y feature
 
 # ### Logistic Regression
 
@@ -71,7 +65,7 @@ testData.Probability = y1_pred_prob
 print(testData)
 
 # `The probability values you see on teh right most column is the p-value associated with donation based on the data you created.`
-# `For a new customer that comes in, you just need to put in their values in the exact format as the test data you had. That is, they should have these 118 columns:`
+# `For a new customer that comes in, you just need to put in their values in the exact format as the test data you had.`
 
 shelter1data.columns
 
@@ -80,6 +74,6 @@ testData = testData.sort_values(["Probability"],ascending=False)
 testData.head(5)
 
 # `The list above is the top 5 customers with highest likelihood of donation.` 
-# `Again, the model has a lot of scope of imporvement: you can try something called GridSearch for hyperparameter tuning. Also try out soem otehr classifier, like Random Forrest maybe. They'll give you good results.`
+# `The model can be improved using hyperparameter tuning, or using some other classifier, like Random Forest.`
 
 # `Repeat the steps above for the other three shelters`
