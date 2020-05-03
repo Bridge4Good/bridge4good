@@ -33,4 +33,4 @@ We also plan on expanding the platform to **iOS and Android** users and advertis
 
 ##### Marvel website demo link [here](https://marvelapp.com/4fbh673)!
 ##### DevPost submission link [here](https://devpost.com/software/bridge4good)!
-##### GirlsinAI submission linke [here](https://girlsinai.co.uk/projects/bridge4good)!
+##### GirlsinAI submission link [here](https://girlsinai.co.uk/projects/bridge4good)!
