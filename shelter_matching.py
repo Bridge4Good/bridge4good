@@ -3,6 +3,7 @@
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
+import random
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
@@ -10,9 +11,13 @@ from sklearn import metrics
 from sklearn.model_selection import GridSearchCV
 
 # ## Shelter 1 Model - Train and test with shelter1.csv data
-
+shelter1data = pd.read_csv("Shelter1_data.csv",header=0)
+shelter1data["Shelter1"] = random.randint(0, 2)
+shelter1data.to_csv("Test.csv")
+print(shelter1data.head(100))
+'''
 ### Loading the data here (reusing the code)
-shelter1data = pd.read_csv('.\donors.csv',header=0)
+#shelter1data = pd.read_csv('.\donors.csv',header=0)
 shelter1data_RAW = shelter1data.copy()
 shelter1data = shelter1data.dropna()
 
@@ -30,9 +35,6 @@ shelter1data.shape
 
 x1 = shelter1data.drop(["Shelter 1"],axis = 1) ## Keeping all except the Y feature
 y1 = shelter1data.loc[:,["Shelter 1"]] ## Keeing on the Y feature
-
-#x1 = shelter1data.drop(["Shelter1 "],axis = 1) ## Keeping all except the Y feature
-#y1 = shelter1data.loc[:,["Shelter1 "]] ## Keeing on the Y feature
 
 # ### Logistic Regression
 
@@ -76,3 +78,4 @@ print(testData.head(5))
 
 # `The list above is the top 5 customers with highest likelihood of donation.` 
 # `The model can be improved using hyperparameter tuning, or using some other classifier, like Random Forest.`
+'''
