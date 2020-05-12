@@ -1,25 +1,24 @@
-from flask import Flask, render_template, request
+from flask import Flask, flash, redirect, render_template, request
 from donor_matching import *
 
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
-def template():
-    return render_template('index.html')
+def flexible():
+    return render_template('frontend.html')
 
-def logistic_regression():
+def demo():
     if request.method == 'POST':
-        zipcode = request.form['zipcode']
-        donation = request.form['donation']
+        zipcode = int(request.form.get('zipcode'))
+        donation = int(request.form.get('donation'))
 
         message = match_donor(zipcode, donation)
 
+        return render_template('frontend.html', message=message)
     else:
-        message = 'Submit your request!'
-
-
-    return render_template('index.html', message=message)
+        message = 'Internal Server Error'
+        return render_template('frontend.html', message=message)
 
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(port=1510, debug = True)
