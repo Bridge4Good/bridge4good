@@ -5,22 +5,19 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def flexible():
-    return render_template('index.html')
+    return render_template('frontend.html')
 
-def submit():
-    if request.method == 'POST':
-        return redirect('/demo')
-    else:
-        return render_template('index.html')
-
-@app.route('/demo', methods=['POST'])
 def demo():
-    zipcode = int(request.form.get('zipcode'))
-    donation = int(request.form.get('donation'))
+    if request.method == 'POST':
+        zipcode = int(request.form.get('zipcode'))
+        donation = int(request.form.get('donation'))
 
-    message = match_donor(zipcode, donation)
+        message = match_donor(zipcode, donation)
 
-    return render_template('matched.html', message=message)
+        return render_template('frontend.html', message=message)
+    else:
+        message = 'Internal Server Error'
+        return render_template('frontend.html', message=message)
 
 
 if __name__ == '__main__':
