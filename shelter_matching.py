@@ -2,8 +2,8 @@
 
 import pandas as pd
 import numpy as np
+
 from sklearn import preprocessing
-import random
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
@@ -12,31 +12,23 @@ from sklearn.model_selection import GridSearchCV
 
 # ## Shelter 1 Model - Train and test with shelter1.csv data
 shelter1data = pd.read_csv("Shelter1_data.csv",header=0)
-shelter1data["Shelter1"] = random.randint(0, 2)
-shelter1data.to_csv("Test.csv")
-print(shelter1data.head(100))
-'''
+shelter1data["Shelter 1"] = np.random.randint(0, 2, shelter1data.shape[0])
+
 ### Loading the data here (reusing the code)
 #shelter1data = pd.read_csv('.\donors.csv',header=0)
 shelter1data_RAW = shelter1data.copy()
 shelter1data = shelter1data.dropna()
 
-print(shelter1data.head())
-
 ### To effectively capture the effect of city and state , you need to one-hot-encode it. That is convert the state/city column to a binary variable
 shelter1data = pd.get_dummies(shelter1data, columns = ["Donor City", "Donor State"])
-
 
 ### Removing Zip as this is redundant information, unless you are capturing the distance between the shelter and the customer using this. 
 shelter1data = shelter1data.iloc[:,2:]
 
-shelter1data.shape
+x1 = shelter1data.drop(["Shelter 1"], axis = 1) ## Keeping all except the Y feature
+y1 = shelter1data["Shelter 1"] ## Keeping only the Y feature
 
-
-x1 = shelter1data.drop(["Shelter 1"],axis = 1) ## Keeping all except the Y feature
-y1 = shelter1data.loc[:,["Shelter 1"]] ## Keeing on the Y feature
-
-# ### Logistic Regression
+### Logistic Regression
 
 x1_train, x1_test, y1_train, y1_test = train_test_split(x1, y1, test_size=0.3, random_state=0)
 logreg1 = LogisticRegression(penalty='l2',
@@ -45,6 +37,7 @@ logreg1 = LogisticRegression(penalty='l2',
     C=1.0,
     fit_intercept=True,
     intercept_scaling=1,
+    max_iter=1000,
     class_weight=None,
     warm_start=False,
     n_jobs=-1,
@@ -78,4 +71,3 @@ print(testData.head(5))
 
 # `The list above is the top 5 customers with highest likelihood of donation.` 
 # `The model can be improved using hyperparameter tuning, or using some other classifier, like Random Forest.`
-'''
