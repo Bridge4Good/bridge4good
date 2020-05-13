@@ -1,5 +1,6 @@
-from flask import Flask, flash, redirect, render_template, request
+from flask import Flask, redirect, render_template, request
 from donor_matching import *
+from shelter_matching copy import *
 
 app = Flask(__name__)
 
@@ -14,10 +15,10 @@ def demo():
 
         message = match_donor(zipcode, donation)
 
-        return render_template('frontend.html', message=message)
+        return render_template('donor_matched.html', message=message)
     else:
         message = 'Internal Server Error'
-        return render_template('frontend.html', message=message)
+        return render_template('index.html', message=message)
 
 
 if __name__ == '__main__':

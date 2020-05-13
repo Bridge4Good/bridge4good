@@ -11,24 +11,37 @@ from sklearn import metrics
 
 
 # Reads and slices CSVs accordingly for x/y inputs for logreg
-def csv_cleaner(csv):
+def csv_cleaner(csv, shelter):
     data = pd.read_csv(csv, header=0)
-    data = data.dropna()
-
-    x = data.iloc[:, 0:2].values
-    y = data.iloc[:, 2].values
+    data = data.copy().dropna()
+    
+    ### To effectively capture the effect of city and state , you need to one-hot-encode it. That is convert the state/city column to a binary variable
+    data = pd.get_dummies(data, columns = ["Donor City", "Donor State"])
+    
+    x = data.drop(["Shelter 1", "Shelter 2", "Shelter 3"], axis = 1) ## Keeping all except the Y feature
+    y = data[shelter] ## Keeping only the Y feature
 
     return x, y
 
 # Shelter 1 Model - Train and test with Shelter1_donor.csv data
 def shelter1_logreg():
-    data = csv_cleaner('Shelter1_donor.csv')
-
+    data = csv_cleaner('donor_data.csv', 'Shelter 1')
+   
     # Split data into train and test randomly
     x1_train, x1_test, y1_train, y1_test = train_test_split(data[0], data[1], test_size=0.3, random_state=0)
     
     # run scikit-learn's builtin logreg
-    logreg1 = LogisticRegression()
+    logreg1 = LogisticRegression(penalty='l2',
+        dual=False,
+        tol=0.0001,
+        C=1.0,
+        fit_intercept=True,
+        intercept_scaling=1,
+        max_iter=1000,
+        class_weight=None,
+        warm_start=False,
+        n_jobs=-1,
+        l1_ratio=None)
 
     # fit the model to the training data
     shelter1_fit = logreg1.fit(x1_train, y1_train)
@@ -40,13 +53,23 @@ def shelter1_logreg():
 
 # Shelter 2 Model - Train and test with Shelter2_donor.csv data
 def shelter2_logreg():
-    data = csv_cleaner('Shelter2_donor.csv')
+    data = csv_cleaner('donor_data.csv', 'Shelter 2')
   
     # Split data into train and test randomly
     x2_train, x2_test, y2_train, y2_test = train_test_split(data[0], data[1], test_size=0.3, random_state=0)
     
     # run builtin logreg
-    logreg2 = LogisticRegression()
+    logreg2 = LogisticRegression(penalty='l2',
+        dual=False,
+        tol=0.0001,
+        C=1.0,
+        fit_intercept=True,
+        intercept_scaling=1,
+        max_iter=1000,
+        class_weight=None,
+        warm_start=False,
+        n_jobs=-1,
+        l1_ratio=None)
 
     # fit model to training data
     shelter2_fit = logreg2.fit(x2_train, y2_train)
@@ -58,13 +81,23 @@ def shelter2_logreg():
 
 # Shelter 3 Model - Train and test with Shelter3_donor.csv data
 def shelter3_logreg():
-    data = csv_cleaner('Shelter3_donor.csv')
+    data = csv_cleaner('donor_data.csv', 'Shelter 3')
     
     # Split data into train and test randomly
     x3_train, x3_test, y3_train, y3_test = train_test_split(data[0], data[1], test_size=0.3, random_state=0)
     
     # run builtin logreg
-    logreg3 = LogisticRegression()
+    logreg3 = LogisticRegression(penalty='l2',
+        dual=False,
+        tol=0.0001,
+        C=1.0,
+        fit_intercept=True,
+        intercept_scaling=1,
+        max_iter=1000,
+        class_weight=None,
+        warm_start=False,
+        n_jobs=-1,
+        l1_ratio=None)
 
     # fit model to data
     shelter3_fit = logreg3.fit(x3_train, y3_train)
@@ -99,3 +132,5 @@ def match_donor(zipcode, donation):
     final_shelter = max(shelters, key=shelters.get)
 
     return 'Thank you! Based on your input, we recommend that you donate to ' + final_shelter
+
+match_donor(602, 30)
