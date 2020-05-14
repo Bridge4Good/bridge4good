@@ -1,5 +1,5 @@
 from flask import Flask, flash, redirect, render_template, request
-# from donor_matching import *
+from donor_matching import *
 from shelter_matching import *
 
 app = Flask(__name__)
@@ -8,15 +8,20 @@ app = Flask(__name__)
 def flexible():
     return render_template('index.html')
 
-def submit():
-    if request.method == 'POST':
-        return redirect('/demo')
-    else:
-        return render_template('shelter_matched.html')
+@app.route('/donor', methods=['POST'])
+def donor():
+    zipcode = request.form.get('zipcode')
+    donation = request.form.get('donation')
+    age = request.form.get('age')
+    volunteer = request.form.get('volunteer')
+
+    message = match_donor(zipcode, donation, age, volunteer)
+
+    return render_template('donor_matched.html', message=message)
 
 
-@app.route('/demo', methods=['POST'])
-def demo():
+@app.route('/shelter', methods=['POST'])
+def shelter():
     shelter = request.form.get('shelter')
 
     message = topthree(shelter)

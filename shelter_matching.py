@@ -9,17 +9,17 @@ from sklearn import metrics
 from sklearn.model_selection import GridSearchCV
 
 # ## Shelter 1 Model - Train and test with donor_data
-def csv_cleaner(csv, shelter):
-    data = pd.read_csv(csv, header=0)
+def csv_cleaner(csv):
+    data = pd.read_csv(csv)
     data = data.copy().dropna().iloc[:, 1:]
     
     return data
 
 def generate_xy(shelter):
-    data = csv_cleaner("donor_data.csv", shelter)
+    data = csv_cleaner("donor_data.csv")
 
-    x1 = data.drop(data.iloc[:, 5:8], axis=1) ## Keeping all except the Y feature
-    y1 = data[shelter] ## Keeping only the Y feature
+    x1 = data.drop(data.loc[:, 'Salvation Army': 'Covenant House'], axis=1) ## Keeping all except the Y feature
+    y1 = data.loc[:, shelter] ## Keeping only the Y feature
 
     x1_train, x1_test, y1_train, y1_test = train_test_split(x1, y1, test_size=0.3, random_state=0)
     
@@ -54,7 +54,7 @@ def logreg(shelter):
 def test_logreg(shelter):
     y1_pred_prob = logreg(shelter)
     data = generate_xy(shelter)
-    shelter_data = csv_cleaner("donor_data.csv", shelter)
+    shelter_data = csv_cleaner("donor_data.csv")
 
     ### Creating a test data for checking our results
     testData = shelter_data.loc[data[3]]
@@ -68,9 +68,11 @@ def test_logreg(shelter):
 def topthree(shelter):
     testData = test_logreg(shelter)
     testData = testData.sort_values(["Probability"],ascending=False)
-    top3 = testData.head(3)[['Donor Zip', 'Donor Budget', 'Donor Age', 'Is Volunteer', 'Probability']]
-    top3 = top3.to_html(index=False)
+    top3 = testData.head(3)[['Donor Zip', 'Donor Budget', 'Donor Age']]
+    top3.index = ['Donor 1', 'Donor 2', 'Donor 3']
+    top3 = top3.to_dict()
 
-    message = 'Here is the information for the top 3 potential donors to your shelter: ' + '\n'
+
+    message = 'Here is the information for the top 3 potential donors to your shelter: ' + '\n' + str(top3)
     
-    return message, top3
+    return message

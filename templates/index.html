@@ -16,20 +16,23 @@
 		<br>
 		<div class='donor_match'>
 			<h3>Donors:</h3>
-			<form method="post">
-				<input type="number" name="zipcode" placeholder="First 3 digits of zipcode">
-				<input type="number" name="donation" placeholder="Donation">
-				<input type="number" name="age" placeholder="Age">
-				<input type="text" name="volunteer" placeholder="Volunteered in the past?">
-				<button type="submit" class="submit-button" name="donor-shelter">Find Shelter!</button>
+			<form action="{{ url_for('donor') }}" method="POST">
+				<div class="form">
+					<input type="number" name="zipcode" placeholder="First 3 digits of zipcode">
+					<input type="number" name="donation" placeholder="Donation">
+					<input type="number" name="age" placeholder="Age">
+					<input type="text" name="volunteer" placeholder="Volunteered in the past?">
+					<button type="submit" class="submit-button" name="donor-shelter">Find Shelter!</button>
+				</div>
 			</form>
 		</div>
 		<br>
 		<div class='shelter_match'>
 			<h3>Shelters:</h3>
-			<form method="post">
-                <input type="text" name="shelter" placeholder="Shelter name">
-                <button type="submit" class="submit-button" name="donor-shelter">Find donors!</button>
+			<form action="{{ url_for('shelter') }}" method="POST">
+				<div class="form">                
+					<input type="text" name="shelter" placeholder="Shelter name">
+                	<button type="submit" class="submit-button" name="donor-shelter">Find donors!</button>
             </form>
 		</div>
     </body>
