@@ -7,30 +7,21 @@
 
 <title>Bridge4Good</title>
 
-<body>
+<body bgcolor="gray">
 
-<h1>Bridge4Good</h1>
-<h2>A digital platform that allows you to support homeless populations</h2>
+<h1 {color:Blue;}>Bridge4Good</h1>
+<h2 {color:Teal;}>A digital platform that allows you to support homeless populations</h2>
 <p><b>Help homeless populations during the COVID-19 pandemic without leaving the comfort of your home, and know who and where you are helping. YOU have control over how your donations are used.</b></p>
 <p><a href="http://www.bridge4good.com">Get Started</a></p>
-<h2>How it Works</h2>
+<h2 {color:Teal}>How it Works</h2>
 <p><b>Together, we can build the bridge to provide help</b></p>
-<p>First, you donate items from Bridge4Good, paying for items a homeless shelter indicates they are in need of</p>
-<p>Next, goods will be directly purchased from small businesses, who will mail the goods to homeless shelters</p>
-<p>Finally, a homeless shelter receives products you have donated and will distribute the goods to homeless populations</p>
-<h2>Where do we operate></h2>
+<p {color:Purple;}>First, you donate items from Bridge4Good, paying for items a homeless shelter indicates they are in need of</p>
+<p {color:Purple;}>Next, goods will be directly purchased from small businesses, who will mail the goods to homeless shelters</p>
+<p {color:Purple;}>Finally, a homeless shelter receives products you have donated and will distribute the goods to homeless populations</p>
+<h2 {color:Teal:}>Where do we operate></h2>
 <p><b>Everywhere in the United States</b></p>
-<p>The United States has the most COVID-19 cases internationally with over 1 MILLION cases. Homeless populations are the most vulnerable population during this difficultan unpredictable time, and they need YOUR help.</p>
+<p {color:Purple;}>The United States has the most COVID-19 cases internationally with over 1 MILLION cases. Homeless populations are the most vulnerable population during this difficultan unpredictable time, and they need YOUR help.</p>
 <p><a href="http://www.bridge4good.com">Click Here to See Our Locations</a></p>
-
-<html>
-<head>
-<style>
-h1 {color:Blue;}
-h2 {color:Teal;}
-p {color:Purple;}
-</style>
-</head>
 
 </body
 </html>
