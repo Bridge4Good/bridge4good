@@ -10,22 +10,26 @@
 		<p>
             We are running logistic regression analysis in the backend to 
 			generate probabilistic insights in order to match donors with 
-			homeless shelters based on their location and the amount they are donating.
+			homeless shelters and match shelters with a targeted group of donors 
+			based on their location, the amount they are donating, their age, and their history of volunteer work.
 		</p>
-
+		<br>
 		<div class='donor_match'>
 			<h3>Donors:</h3>
-			<form method='POST'>
-				<input type="number" placeholder="zipcode">
-				<input type="number" placeholder="donation">
-				<button type="submit">Find Shelter!</button>
+			<form method="post">
+				<input type="number" name="zipcode" placeholder="First 3 digits of zipcode">
+				<input type="number" name="donation" placeholder="Donation">
+				<input type="number" name="age" placeholder="Age">
+				<input type="text" name="volunteer" placeholder="Volunteered in the past?">
+				<button type="submit" class="submit-button" name="donor-shelter">Find Shelter!</button>
 			</form>
 		</div>
+		<br>
 		<div class='shelter_match'>
-			<form method='POST'>
-                <input type="number" placeholder="zipcode">
-                <input type="number" placeholder="donation">
-                <button type="submit">Find donors!</button>
+			<h3>Shelters:</h3>
+			<form method="post">
+                <input type="text" name="shelter" placeholder="Shelter name">
+                <button type="submit" class="submit-button" name="donor-shelter">Find donors!</button>
             </form>
 		</div>
     </body>

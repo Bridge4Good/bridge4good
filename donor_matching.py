@@ -13,19 +13,16 @@ from sklearn import metrics
 # Reads and slices CSVs accordingly for x/y inputs for logreg
 def csv_cleaner(csv, shelter):
     data = pd.read_csv(csv, header=0)
-    data = data.copy().dropna()
+    data = data.copy().dropna().iloc[:, 1:]
     
-    ### To effectively capture the effect of city and state , you need to one-hot-encode it. That is convert the state/city column to a binary variable
-    data = pd.get_dummies(data, columns = ["Donor City", "Donor State"])
-    
-    x = data.drop(["Shelter 1", "Shelter 2", "Shelter 3"], axis = 1) ## Keeping all except the Y feature
+    x = data.drop(data.iloc[:, 4:7], axis=1) ## Keeping all except the Y feature
     y = data[shelter] ## Keeping only the Y feature
 
-    return x, y
+    return [x, y]
 
 # Shelter 1 Model - Train and test with Shelter1_donor.csv data
 def shelter1_logreg():
-    data = csv_cleaner('donor_data.csv', 'Shelter 1')
+    data = csv_cleaner('donor_data.csv', 'Salvation Army')
    
     # Split data into train and test randomly
     x1_train, x1_test, y1_train, y1_test = train_test_split(data[0], data[1], test_size=0.3, random_state=0)
@@ -53,7 +50,7 @@ def shelter1_logreg():
 
 # Shelter 2 Model - Train and test with Shelter2_donor.csv data
 def shelter2_logreg():
-    data = csv_cleaner('donor_data.csv', 'Shelter 2')
+    data = csv_cleaner('donor_data.csv', 'New York City Rescue Mission')
   
     # Split data into train and test randomly
     x2_train, x2_test, y2_train, y2_test = train_test_split(data[0], data[1], test_size=0.3, random_state=0)
@@ -81,7 +78,7 @@ def shelter2_logreg():
 
 # Shelter 3 Model - Train and test with Shelter3_donor.csv data
 def shelter3_logreg():
-    data = csv_cleaner('donor_data.csv', 'Shelter 3')
+    data = csv_cleaner('donor_data.csv', 'Covenant House')
     
     # Split data into train and test randomly
     x3_train, x3_test, y3_train, y3_test = train_test_split(data[0], data[1], test_size=0.3, random_state=0)
@@ -110,27 +107,34 @@ def shelter3_logreg():
 # Get "___% match" from probability values
 def match_percent(proba):
     percent = proba[0] * 100
-    match_percent = str(percent) + '% match'
+    percent_per_outcome = str(percent).lstrip('[').rstrip(']').split(' ')
+    percent_per_outcome = list(filter(None, percent_per_outcome))
 
-    return match_percent
+    match =  round(float(percent_per_outcome[1]), 2)
+
+    return str(match) + '% match'
 
 # Run logreg on new user input; print 3 probabilities; match donor with the shelter with highest % match 
-def match_donor(zipcode, donation):
-    new_data = [[zipcode, donation]]
-
+def match_donor(zipcode, donation, age, volunteer):
+    if volunteer.lower() == 'yes':
+        volunteer_bin = 1
+    elif volunteer.lower() == 'no':
+        volunteer_bin = 0
+    new_data = [[zipcode, donation, age, volunteer_bin]]
     # Predicting probability that the new_data will have value of 0 ; and probability that it will have a value of 1
-    # Splitting arrays into 2 sections
+    # Splitting arrays into 2 sections (probability of 0 and probability of 1)
     # Getting final % match data
     shelter1 = match_percent(np.split(shelter1_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
     shelter2 = match_percent(np.split(shelter2_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
     shelter3 = match_percent(np.split(shelter3_logreg().predict_proba(new_data)[0], indices_or_sections=2)[1])
 
     # storing shelters in a dictionary to find the key of the highest % match
-    shelters = {'Shelter 1': shelter1, 
-                'Shelter 2': shelter2, 
-                'Shelter 3': shelter3}
+    shelters = {'Salvation Army': shelter1, 
+                'New York City Rescue Mission': shelter2, 
+                'Covenant House': shelter3}
     final_shelter = max(shelters, key=shelters.get)
+    final_shelter_match = shelters[final_shelter]
+    
+    message = 'Based on your input, we recommend that you donate to the %s shelter for which you are a %s!' % (final_shelter, final_shelter_match)
 
-    return 'Thank you! Based on your input, we recommend that you donate to ' + final_shelter
-
-match_donor(602, 30)
+    return message
