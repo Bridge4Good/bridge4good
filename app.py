@@ -10,9 +10,9 @@ def flexible():
 
 @app.route('/donor', methods=['POST'])
 def donor():
-    zipcode = request.form.get('zipcode')
+    zipcode = int(request.form.get('zipcode'))
     donation = request.form.get('donation')
-    age = request.form.get('age')
+    age = int(request.form.get('age'))
     volunteer = request.form.get('volunteer')
 
     message = match_donor(zipcode, donation, age, volunteer)
@@ -29,4 +29,4 @@ def shelter():
     return render_template('shelter_matched.html', message=message)
 
 if __name__ == '__main__':
-    app.run(port=1510, debug=True)
+    app.run(port=4000, debug=True)

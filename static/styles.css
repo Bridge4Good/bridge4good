@@ -1,15 +1,18 @@
+body {
+    background-color: gainsboro;
+}
 h1 {
-    color: rgba(13, 150, 150, 0.61);
+    color: rgb(0, 0, 0);
 }
 
 h2 {
-    color:rgba(13, 150, 150, 0.61);
+    color:rgb(9, 110, 110);
 }
 
 h3 {
-    color: rgba(13, 150, 150, 0.61);
+    color:rgb(9, 110, 110);
 }
 
 p {
-    color: rgba(12, 20, 53, 0.582);
+    color: rgb(12, 20, 53);
 }
