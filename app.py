@@ -11,7 +11,7 @@ def flexible():
 @app.route('/donor', methods=['POST'])
 def donor():
     zipcode = int(request.form.get('zipcode'))
-    donation = request.form.get('donation')
+    donation = int(request.form.get('donation'))
     age = int(request.form.get('age'))
     volunteer = request.form.get('volunteer')
 

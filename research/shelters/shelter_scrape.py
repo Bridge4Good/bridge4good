@@ -1,6 +1,9 @@
 import pandas as pd 
 
-table = pd.read_html("https://www.shelterlistings.org/city/new_york-ny.html")[0]
+url = "https://www.shelterlistings.org/city/new_york-ny.html"
+city = "nyc"
+
+table = pd.read_html(url)[0]
 
 data = {
     'Name': [],
@@ -30,7 +33,7 @@ for row in table[0]:
     data['Description'].append(shelter_desc)
 
 df = pd.DataFrame(data)
-df.to_csv('nyc_shelters.csv')
+df.to_csv(city + '_shelters.csv')
 print('Done!')
 
 

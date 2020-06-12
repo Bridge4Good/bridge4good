@@ -110,7 +110,7 @@ def match_percent(proba):
     percent_per_outcome = str(percent).lstrip('[').rstrip(']').split(' ')
     percent_per_outcome = list(filter(None, percent_per_outcome))
 
-    match =  round(float(percent_per_outcome[1]), 2)
+    match =  round(float(percent_per_outcome[0]), 2)
 
     return str(match) + '% match'
 
