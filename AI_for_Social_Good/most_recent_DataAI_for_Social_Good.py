@@ -21,20 +21,29 @@ master_df = master_df.merge(homelessness_by_state, left_on = 'Postal Code', righ
 master_df = master_df[['Location Name', 'Postal Code', 'METRIC', 'Poverty Estimate, All Ages', 
 'Poverty Percent, All Ages', 'Median Household Income', 'Overall Homeless, 2019']]
 #Overall Homeless - Black or African American, 2019
-master_df.rename(columns={'Location Name':'State', 'Postal Code':'State Abbreviation', 'METRIC':'Percent Donating $25.00 or more (2015)'}, inplace=True)
+master_df.rename(columns={'Location Name':'State', 'Postal Code':'State Abbreviation', 
+'METRIC':'Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages': 'Poverty Percent, All Ages (2018)'}, inplace=True)
 
 #Making plots with labeled points
 donations_vs_overallhomelessness_fig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Overall Homeless, 2019", color="State",
     hover_data=['Percent Donating $25.00 or more (2015)', 'Overall Homeless, 2019'])
-donations_vs_poverty_fig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Poverty Percent, All Ages", color="State",
-    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages'])
+donations_vs_overallhomelessness_fig.update_layout(title="Most Recent--Donations vs Overall Homelessness")
+
+donations_vs_poverty_fig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Poverty Percent, All Ages (2018)", color="State",
+    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages (2018)'])
+donations_vs_poverty_fig.update_layout(title="Most Recent--Donations vs Poverty Percent")
+
 donations_vs_overallhomelessness_fig.show()
 donations_vs_poverty_fig.show()
 
 #Making plots with trend lines
 donations_vs_overallhomelessness_trendlinefig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Overall Homeless, 2019", 
     hover_data=['Percent Donating $25.00 or more (2015)', 'Overall Homeless, 2019'], trendline='ols')
-donations_vs_poverty_trendlinefig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Poverty Percent, All Ages", 
-    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages'], trendline='ols')
+donations_vs_overallhomelessness_trendlinefig.update_layout(title="Most Recent--Donations vs Overall Homelessness (Trendline)")
+
+donations_vs_poverty_trendlinefig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Poverty Percent, All Ages (2018)", 
+    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages (2018)'], trendline='ols')
+donations_vs_poverty_trendlinefig.update_layout(title="Most Recent--Donations vs Poverty Percent (Trendline)")
+
 donations_vs_overallhomelessness_trendlinefig.show()
 donations_vs_poverty_trendlinefig.show()
