@@ -15,6 +15,7 @@ poverty_and_income_by_state = poverty_and_income_by_state[1:]
 #Reading and filtering 2015 homelessness data
 homelessness_by_state = pd.read_excel("AI_for_Social_Good/2015-PIT-Counts-by-State.xlsx")
 
+#Combining data
 master_df = percent_donating_25_dollars_or_more.merge(poverty_and_income_by_state, left_on = 'Location Name', right_on = 'Name')
 master_df = master_df.merge(homelessness_by_state, left_on = 'Postal Code', right_on = 'State')
 master_df = master_df[['Location Name', 'Postal Code', 'METRIC', 'Poverty Estimate, All Ages', 
@@ -22,9 +23,18 @@ master_df = master_df[['Location Name', 'Postal Code', 'METRIC', 'Poverty Estima
 #Overall Homeless - Black or African American, 2015
 master_df.rename(columns={'Location Name':'State', 'Postal Code':'State Abbreviation', 'METRIC':'Percent Donating $25.00 or more (2015)'}, inplace=True)
 
-donations_vs_homelessness_fig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Overall Homeless, 2015", color="State",
-    hover_data=['Percent Donating $25.00 or more (2015)', 'Overall Homeless, 2015'], trendline="ols")
+#Making plots with labeled points
+donations_vs_overallhomelessness_fig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Overall Homeless, 2015", color="State",
+    hover_data=['Percent Donating $25.00 or more (2015)', 'Overall Homeless, 2015'])
 donations_vs_poverty_fig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Poverty Percent, All Ages", color="State",
-    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages'], trendline="ols")
-donations_vs_homelessness_fig.show()
+    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages'])
+donations_vs_overallhomelessness_fig.show()
 donations_vs_poverty_fig.show()
+
+#Making plots with trend lines
+donations_vs_overallhomelessness_trendlinefig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Overall Homeless, 2015", 
+    hover_data=['Percent Donating $25.00 or more (2015)', 'Overall Homeless, 2015'], trendline='ols')
+donations_vs_poverty_trendlinefig = px.scatter(master_df, x="Percent Donating $25.00 or more (2015)", y="Poverty Percent, All Ages", 
+    hover_data=['Percent Donating $25.00 or more (2015)', 'Poverty Percent, All Ages'], trendline='ols')
+donations_vs_overallhomelessness_trendlinefig.show()
+donations_vs_poverty_trendlinefig.show()
