@@ -4,20 +4,20 @@ import plotly.express as px
 
 #Reading and filtering 2015 Donation data
 #Value Category = All - # donating to charity (2013-2015), Percent Donating $25.00 or more (2015) (and for individual years 2008-5)
-donations_by_state = pd.read_csv("AI_for_Social_Good/Volunteering_and_Civic_Life_in_America.csv")
-percent_donating_25_dollars_or_more = donations_by_state.loc[donations_by_state['Value Category'] == 'Percent Donating $25.00 or more (2015)']
-#percent_donating_2013_to_15 = donations_by_state.loc[donations_by_state['Value Category'] == 'All - % donating to charity (2013-2015)']
+donations = pd.read_csv("AI_for_Social_Good/Volunteering_and_Civic_Life_in_America.csv")
+percent_donating_25_dollars_or_more = donations.loc[donations['Value Category'] == 'Percent Donating $25.00 or more (2015)']
+#percent_donating_2013_to_15 = donations.loc[donations['Value Category'] == 'All - % donating to charity (2013-2015)']
 
 #Reading and filtering 2018 SAIPE data
-poverty_and_income_by_state = pd.read_excel("AI_for_Social_Good/SAIPE_State_and_County_Estimates_2018.xls")
-poverty_and_income_by_state = poverty_and_income_by_state[1:]
+poverty_and_income = pd.read_excel("AI_for_Social_Good/SAIPE_State_and_County_Estimates_2018.xls")
+poverty_and_income = poverty_and_income[1:]
 
 #Reading and filtering 2019 homelessness data
-homelessness_by_state = pd.read_excel("AI_for_Social_Good/2019-PIT-Counts-by-State.xlsx")
+homelessness = pd.read_excel("AI_for_Social_Good/2019-PIT-Counts-by-State.xlsx")
 
 #Combining data
-master_df = percent_donating_25_dollars_or_more.merge(poverty_and_income_by_state, left_on = 'Location Name', right_on = 'Name')
-master_df = master_df.merge(homelessness_by_state, left_on = 'Postal Code', right_on = 'State')
+master_df = percent_donating_25_dollars_or_more.merge(poverty_and_income, left_on = 'Location Name', right_on = 'Name')
+master_df = master_df.merge(homelessness, left_on = 'Postal Code', right_on = 'State')
 master_df = master_df[['Location Name', 'Postal Code', 'METRIC', 'Poverty Estimate, All Ages', 
 'Poverty Percent, All Ages', 'Median Household Income', 'Overall Homeless, 2019']]
 #Overall Homeless - Black or African American, 2019
