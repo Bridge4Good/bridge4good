@@ -112,6 +112,8 @@ venv.bak/
 .bridge4good/
 .DS_Store
 .vscode/
+data/
+python-scripts/
 
 # Spyder project settings
 .spyderproject

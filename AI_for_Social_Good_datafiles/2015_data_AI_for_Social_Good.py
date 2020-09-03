@@ -3,17 +3,17 @@ import numpy as np
 import plotly.express as px
 
 #Reading and filtering 2015 Donation data
-donations = pd.read_csv("AI_for_Social_Good/Volunteering_and_Civic_Life_in_America.csv")
+donations = pd.read_csv("data/Volunteering_and_Civic_Life_in_America.csv")
 percent_donating_25_dollars_or_more = donations.loc[donations['Value Category'] == 'Percent Donating $25.00 or more (2015)']
 
 #Reading and filtering 2015 SAIPE data
-poverty_and_income = pd.read_excel("AI_for_Social_Good/SAIPE_State_and_County_Estimates_2015.xls")
+poverty_and_income = pd.read_excel("data/SAIPE_State_and_County_Estimates_2015.xls")
 poverty_and_income = poverty_and_income[1:]
 
 #Reading and homelessness data
-homelessness = pd.read_excel("AI_for_Social_Good/2015-PIT-Counts-by-State.xlsx")
+homelessness = pd.read_excel("data/2015-PIT-Counts-by-State.xlsx")
 #Reading population data
-population = pd.read_excel("AI_for_Social_Good/Annual_Estimates_Resident_Population.xlsx")
+population = pd.read_excel("data/Annual_Estimates_Resident_Population.xlsx")
 
 #Combining data
 master_df = percent_donating_25_dollars_or_more.merge(poverty_and_income, left_on = 'Location Name', right_on = 'Name')

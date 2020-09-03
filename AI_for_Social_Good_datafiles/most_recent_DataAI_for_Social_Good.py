@@ -4,19 +4,19 @@ import plotly.express as px
 def read_and_filter_data():
     #Reading and filtering 2015 Donation data
         #Value Category = All - # donating to charity (2013-2015), Percent Donating $25.00 or more (2015) (and for individual years 2008-5)
-    donations = pd.read_csv("AI_for_Social_Good/Volunteering_and_Civic_Life_in_America.csv")
+    donations = pd.read_csv("data/Volunteering_and_Civic_Life_in_America.csv")
     percent_donating_25_dollars_or_more = donations.loc[donations['Value Category'] == 'All - % donating to charity (2013-2015)']
     #percent_donating_2013_to_15 = donations.loc[donations['Value Category'] == 'All - % donating to charity (2013-2015)']
 
     #Reading and filtering 2018 SAIPE data
-    poverty_and_income = pd.read_excel("AI_for_Social_Good/SAIPE_State_and_County_Estimates_2018.xls")
+    poverty_and_income = pd.read_excel("dataSAIPE_State_and_County_Estimates_2018.xls")
     poverty_and_income = poverty_and_income[1:]
 
     #Reading and filtering 2019 homelessness data
-    homelessness = pd.read_excel("AI_for_Social_Good/2019-PIT-Counts-by-State.xlsx")
+    homelessness = pd.read_excel("data/2019-PIT-Counts-by-State.xlsx")
 
     #Reading and filtering 2019 HIC (housing) data
-    beds = pd.read_excel('AI_for_Social_Good/2019-HIC-Counts-by-State.xlsx')
+    beds = pd.read_excel('data/2019-HIC-Counts-by-State.xlsx')
 
     return percent_donating_25_dollars_or_more, poverty_and_income, homelessness, beds
 
